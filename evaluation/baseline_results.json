@@ -1,0 +1,8 @@
+{
+  "policy": "baseline_retry_once",
+  "n_transactions": 1200,
+  "revenue_at_risk": 939587258,
+  "revenue_recovered": 300154837,
+  "recovery_rate": 0.3458,
+  "unnecessary_interventions": 785
+}

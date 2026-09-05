@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "n_transactions": 1200,
+    "revenue_at_risk_paise": 939587258,
+    "baseline_recovered_paise": 300154837,
+    "ai_recovered_paise": 383116825,
+    "additional_revenue_recovered_paise": 82961988,
+    "recovery_uplift_pct": 27.64,
+    "baseline_recovery_rate": 0.3458,
+    "ai_recovery_rate": 0.4308,
+    "policy_violations_surfaced_and_blocked": 216,
+    "exceeded_retry_limits_that_executed_anyway": 0,
+    "audit_coverage": 1.0,
+    "action_distribution": {
+      "retry": 329,
+      "send_reminder": 250,
+      "stop": 170,
+      "escalate": 164,
+      "switch_to_upi": 158,
+      "switch_to_card": 128,
+      "wait": 1
+    }
+  },
+  "baseline": {
+    "policy": "baseline_retry_once",
+    "n_transactions": 1200,
+    "revenue_at_risk": 939587258,
+    "revenue_recovered": 300154837,
+    "recovery_rate": 0.3458,
+    "unnecessary_interventions": 785
+  }
+}

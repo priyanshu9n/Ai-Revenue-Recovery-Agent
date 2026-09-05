@@ -1,0 +1,22 @@
+{
+  "method": [
+    "card",
+    "emi",
+    "netbanking",
+    "upi",
+    "wallet"
+  ],
+  "root_cause": [
+    "BANK_DECLINE",
+    "CARD_FAILURE",
+    "NETWORK_TIMEOUT",
+    "RETRY_LIMIT",
+    "UPI_FAILURE",
+    "USER_ABANDONMENT"
+  ],
+  "customer_value_tier": [
+    "high",
+    "low",
+    "mid"
+  ]
+}

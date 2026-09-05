@@ -1,0 +1,1201 @@
+transaction_id,amount,root_cause,predicted_probability,proposed_action,final_action,policy_allowed,policy_reason,policy_violations,outcome,recovered_amount,timestamp
+pay_00000000000000,738508,NETWORK_TIMEOUT,0.9517,retry,retry,True,Action permitted under current policy.,[],SUCCESS,738508,1788630967
+pay_00000000000001,92357,UPI_FAILURE,0.3188,switch_to_card,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000002,80589,NETWORK_TIMEOUT,0.8491,retry,retry,True,Action permitted under current policy.,[],SUCCESS,80589,1788630967
+pay_00000000000003,762982,UPI_FAILURE,0.9007,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,762982,1788630967
+pay_00000000000004,713054,CARD_FAILURE,0.8957,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000005,170422,CARD_FAILURE,0.782,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000006,2879583,USER_ABANDONMENT,0.2379,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630967
+pay_00000000000007,594154,RETRY_LIMIT,0.185,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630967
+pay_00000000000008,1224365,NETWORK_TIMEOUT,0.9392,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1224365,1788630967
+pay_00000000000009,349122,USER_ABANDONMENT,0.8385,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,349122,1788630967
+pay_00000000000010,423432,CARD_FAILURE,0.442,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,423432,1788630967
+pay_00000000000011,467212,NETWORK_TIMEOUT,0.3633,retry,retry,True,Action permitted under current policy.,[],SUCCESS,467212,1788630967
+pay_00000000000012,3120961,BANK_DECLINE,0.1545,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000013,191832,USER_ABANDONMENT,0.673,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000014,111917,BANK_DECLINE,0.1163,send_reminder,stop,False,P(recovery)=0.12 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630967
+pay_00000000000015,2297935,UPI_FAILURE,0.8427,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630967
+pay_00000000000016,1845432,USER_ABANDONMENT,0.2765,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000017,374082,NETWORK_TIMEOUT,0.9708,retry,retry,True,Action permitted under current policy.,[],SUCCESS,374082,1788630967
+pay_00000000000018,552630,CARD_FAILURE,0.7199,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,552630,1788630967
+pay_00000000000019,316889,RETRY_LIMIT,0.0864,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630967
+pay_00000000000020,638557,BANK_DECLINE,0.7572,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,638557,1788630967
+pay_00000000000021,77125,CARD_FAILURE,0.2811,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,77125,1788630967
+pay_00000000000022,2916206,NETWORK_TIMEOUT,0.8771,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2916206,1788630967
+pay_00000000000023,785324,NETWORK_TIMEOUT,0.3395,retry,retry,True,Action permitted under current policy.,[],SUCCESS,785324,1788630967
+pay_00000000000024,708623,CARD_FAILURE,0.8789,switch_to_upi,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000025,771254,CARD_FAILURE,0.3354,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,771254,1788630967
+pay_00000000000026,114381,NETWORK_TIMEOUT,0.901,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000027,52951,USER_ABANDONMENT,0.3682,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,52951,1788630967
+pay_00000000000028,58290,NETWORK_TIMEOUT,0.9609,retry,retry,True,Action permitted under current policy.,[],SUCCESS,58290,1788630967
+pay_00000000000029,52530,UPI_FAILURE,0.2796,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,52530,1788630967
+pay_00000000000030,51439,NETWORK_TIMEOUT,0.5257,retry,retry,True,Action permitted under current policy.,[],SUCCESS,51439,1788630967
+pay_00000000000031,27816,UPI_FAILURE,0.2275,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,27816,1788630967
+pay_00000000000032,108381,USER_ABANDONMENT,0.6302,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630967
+pay_00000000000033,569904,RETRY_LIMIT,0.1719,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630967
+pay_00000000000034,57752,NETWORK_TIMEOUT,0.2233,retry,retry,True,Action permitted under current policy.,[],SUCCESS,57752,1788630967
+pay_00000000000035,44983,NETWORK_TIMEOUT,0.9888,retry,retry,True,Action permitted under current policy.,[],SUCCESS,44983,1788630967
+pay_00000000000036,551574,CARD_FAILURE,0.6454,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,551574,1788630967
+pay_00000000000037,427896,UPI_FAILURE,0.6688,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630967
+pay_00000000000038,464012,BANK_DECLINE,0.247,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000039,417729,RETRY_LIMIT,0.5101,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630967
+pay_00000000000040,3200770,USER_ABANDONMENT,0.1172,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630967
+pay_00000000000041,90701,NETWORK_TIMEOUT,0.9123,retry,retry,True,Action permitted under current policy.,[],SUCCESS,90701,1788630967
+pay_00000000000042,54663,RETRY_LIMIT,0.0492,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630967
+pay_00000000000043,716432,UPI_FAILURE,0.4304,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,716432,1788630967
+pay_00000000000044,1307930,CARD_FAILURE,0.4819,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,1307930,1788630967
+pay_00000000000045,138034,USER_ABANDONMENT,0.87,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,138034,1788630967
+pay_00000000000046,623962,UPI_FAILURE,0.7745,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000047,98301,RETRY_LIMIT,0.5467,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630968
+pay_00000000000048,140977,NETWORK_TIMEOUT,0.9605,retry,retry,True,Action permitted under current policy.,[],SUCCESS,140977,1788630968
+pay_00000000000049,258633,NETWORK_TIMEOUT,0.9782,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000050,339179,USER_ABANDONMENT,0.328,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,339179,1788630968
+pay_00000000000051,205164,NETWORK_TIMEOUT,0.9319,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000052,2514825,USER_ABANDONMENT,0.192,send_reminder,stop,False,P(recovery)=0.19 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630968
+pay_00000000000053,231644,UPI_FAILURE,0.7348,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000054,86910,CARD_FAILURE,0.2951,retry,retry,True,Action permitted under current policy.,[],SUCCESS,86910,1788630968
+pay_00000000000055,681981,USER_ABANDONMENT,0.3162,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000056,137850,NETWORK_TIMEOUT,0.9651,retry,retry,True,Action permitted under current policy.,[],SUCCESS,137850,1788630968
+pay_00000000000057,131616,CARD_FAILURE,0.6975,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,131616,1788630968
+pay_00000000000058,107878,BANK_DECLINE,0.6469,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000059,320128,UPI_FAILURE,0.8482,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,320128,1788630968
+pay_00000000000060,359398,USER_ABANDONMENT,0.2697,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,359398,1788630968
+pay_00000000000061,676392,USER_ABANDONMENT,0.8083,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000062,4350518,NETWORK_TIMEOUT,0.9186,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4350518,1788630968
+pay_00000000000063,220966,CARD_FAILURE,0.3846,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000064,4814210,NETWORK_TIMEOUT,0.8575,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000065,280521,CARD_FAILURE,0.3662,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,280521,1788630968
+pay_00000000000066,98986,RETRY_LIMIT,0.101,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630968
+pay_00000000000067,144448,UPI_FAILURE,0.692,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,144448,1788630968
+pay_00000000000068,665060,NETWORK_TIMEOUT,0.9856,retry,retry,True,Action permitted under current policy.,[],SUCCESS,665060,1788630968
+pay_00000000000069,2785887,RETRY_LIMIT,0.2281,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630968
+pay_00000000000070,728083,NETWORK_TIMEOUT,0.935,retry,retry,True,Action permitted under current policy.,[],SUCCESS,728083,1788630968
+pay_00000000000071,89924,UPI_FAILURE,0.8521,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,89924,1788630968
+pay_00000000000072,145390,USER_ABANDONMENT,0.7001,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,145390,1788630968
+pay_00000000000073,51685,USER_ABANDONMENT,0.2321,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000074,202995,RETRY_LIMIT,0.0895,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630968
+pay_00000000000075,726566,UPI_FAILURE,0.8061,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000076,4096341,UPI_FAILURE,0.8384,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000077,2708770,BANK_DECLINE,0.3409,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,2708770,1788630968
+pay_00000000000078,331594,NETWORK_TIMEOUT,0.9013,retry,retry,True,Action permitted under current policy.,[],SUCCESS,331594,1788630968
+pay_00000000000079,451769,UPI_FAILURE,0.5462,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000080,33133,RETRY_LIMIT,0.846,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630968
+pay_00000000000081,189110,CARD_FAILURE,0.5629,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,189110,1788630968
+pay_00000000000082,268118,NETWORK_TIMEOUT,0.1512,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630968
+pay_00000000000083,62415,USER_ABANDONMENT,0.4123,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000084,2652617,USER_ABANDONMENT,0.4068,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000085,741573,BANK_DECLINE,0.2441,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630968
+pay_00000000000086,80604,CARD_FAILURE,0.477,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000087,136828,CARD_FAILURE,0.7934,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630969
+pay_00000000000088,134715,CARD_FAILURE,0.8657,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000089,126926,UPI_FAILURE,0.529,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,126926,1788630969
+pay_00000000000090,699939,CARD_FAILURE,0.8232,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,699939,1788630969
+pay_00000000000091,621635,NETWORK_TIMEOUT,0.8368,retry,retry,True,Action permitted under current policy.,[],SUCCESS,621635,1788630969
+pay_00000000000092,565898,NETWORK_TIMEOUT,0.9242,retry,retry,True,Action permitted under current policy.,[],SUCCESS,565898,1788630969
+pay_00000000000093,936062,USER_ABANDONMENT,0.1612,send_reminder,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630969
+pay_00000000000094,124199,NETWORK_TIMEOUT,0.8836,retry,retry,True,Action permitted under current policy.,[],SUCCESS,124199,1788630969
+pay_00000000000095,89758,BANK_DECLINE,0.5432,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000096,149980,CARD_FAILURE,0.9155,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,149980,1788630969
+pay_00000000000097,91176,NETWORK_TIMEOUT,0.988,retry,retry,True,Action permitted under current policy.,[],SUCCESS,91176,1788630969
+pay_00000000000098,4466562,USER_ABANDONMENT,0.3219,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000099,40214,CARD_FAILURE,0.8673,retry,retry,True,Action permitted under current policy.,[],SUCCESS,40214,1788630969
+pay_00000000000100,4271290,CARD_FAILURE,0.8554,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,4271290,1788630969
+pay_00000000000101,355047,NETWORK_TIMEOUT,0.9595,retry,retry,True,Action permitted under current policy.,[],SUCCESS,355047,1788630969
+pay_00000000000102,116321,CARD_FAILURE,0.8028,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000103,59692,NETWORK_TIMEOUT,0.9231,retry,retry,True,Action permitted under current policy.,[],SUCCESS,59692,1788630969
+pay_00000000000104,792439,UPI_FAILURE,0.8668,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000105,23219,USER_ABANDONMENT,0.8097,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,23219,1788630969
+pay_00000000000106,737044,RETRY_LIMIT,0.0803,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630969
+pay_00000000000107,45830,USER_ABANDONMENT,0.1265,send_reminder,stop,False,P(recovery)=0.13 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630969
+pay_00000000000108,35448,NETWORK_TIMEOUT,0.8827,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000109,3811838,BANK_DECLINE,0.1839,send_reminder,stop,False,P(recovery)=0.18 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630969
+pay_00000000000110,669373,UPI_FAILURE,0.7918,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,669373,1788630969
+pay_00000000000111,126260,UPI_FAILURE,0.9091,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,126260,1788630969
+pay_00000000000112,212165,NETWORK_TIMEOUT,0.8959,retry,retry,True,Action permitted under current policy.,[],SUCCESS,212165,1788630969
+pay_00000000000113,144551,UPI_FAILURE,0.5825,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630969
+pay_00000000000114,254411,BANK_DECLINE,0.5064,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630969
+pay_00000000000115,249807,USER_ABANDONMENT,0.854,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000116,299792,NETWORK_TIMEOUT,0.974,retry,retry,True,Action permitted under current policy.,[],SUCCESS,299792,1788630969
+pay_00000000000117,38327,NETWORK_TIMEOUT,0.5081,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630969
+pay_00000000000118,85481,NETWORK_TIMEOUT,0.9843,retry,retry,True,Action permitted under current policy.,[],SUCCESS,85481,1788630969
+pay_00000000000119,712628,USER_ABANDONMENT,0.3121,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000120,792039,USER_ABANDONMENT,0.5729,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,792039,1788630969
+pay_00000000000121,125789,NETWORK_TIMEOUT,0.8623,retry,retry,True,Action permitted under current policy.,[],SUCCESS,125789,1788630969
+pay_00000000000122,1185721,RETRY_LIMIT,0.2526,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630969
+pay_00000000000123,570400,RETRY_LIMIT,0.196,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630969
+pay_00000000000124,3706012,BANK_DECLINE,0.5889,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630969
+pay_00000000000125,147736,NETWORK_TIMEOUT,0.9881,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000126,120944,NETWORK_TIMEOUT,0.9282,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630970
+pay_00000000000127,2882210,CARD_FAILURE,0.7797,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000128,72505,UPI_FAILURE,0.6021,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000129,23864,NETWORK_TIMEOUT,0.8507,retry,retry,True,Action permitted under current policy.,[],SUCCESS,23864,1788630970
+pay_00000000000130,125141,CARD_FAILURE,0.8703,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000131,40922,USER_ABANDONMENT,0.1197,send_reminder,stop,False,P(recovery)=0.12 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630970
+pay_00000000000132,149499,NETWORK_TIMEOUT,0.9705,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000133,112345,CARD_FAILURE,0.6278,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,112345,1788630970
+pay_00000000000134,115529,UPI_FAILURE,0.4871,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,115529,1788630970
+pay_00000000000135,618325,USER_ABANDONMENT,0.711,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,618325,1788630970
+pay_00000000000136,185035,BANK_DECLINE,0.5083,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000137,33272,USER_ABANDONMENT,0.4735,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630970
+pay_00000000000138,30739,USER_ABANDONMENT,0.6387,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000139,2708515,NETWORK_TIMEOUT,0.9665,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000140,2202279,USER_ABANDONMENT,0.8435,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,2202279,1788630970
+pay_00000000000141,766118,NETWORK_TIMEOUT,0.7668,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630970
+pay_00000000000142,99777,CARD_FAILURE,0.8337,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,99777,1788630970
+pay_00000000000143,3936586,BANK_DECLINE,0.6105,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000144,140989,USER_ABANDONMENT,0.552,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,140989,1788630970
+pay_00000000000145,366773,CARD_FAILURE,0.5841,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630970
+pay_00000000000146,87045,USER_ABANDONMENT,0.705,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000147,671533,USER_ABANDONMENT,0.2827,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000148,36769,CARD_FAILURE,0.9003,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000149,462848,BANK_DECLINE,0.6339,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000150,242318,UPI_FAILURE,0.5971,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,242318,1788630970
+pay_00000000000151,144316,NETWORK_TIMEOUT,0.9686,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630970
+pay_00000000000152,134890,UPI_FAILURE,0.2498,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,134890,1788630970
+pay_00000000000153,589170,NETWORK_TIMEOUT,0.9287,retry,retry,True,Action permitted under current policy.,[],SUCCESS,589170,1788630970
+pay_00000000000154,20358,NETWORK_TIMEOUT,0.2699,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630970
+pay_00000000000155,881137,NETWORK_TIMEOUT,0.8488,retry,retry,True,Action permitted under current policy.,[],SUCCESS,881137,1788630970
+pay_00000000000156,317138,CARD_FAILURE,0.5383,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,317138,1788630970
+pay_00000000000157,2678921,CARD_FAILURE,0.2743,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000158,228501,CARD_FAILURE,0.7421,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000159,725771,NETWORK_TIMEOUT,0.8578,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000160,252170,BANK_DECLINE,0.274,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,252170,1788630971
+pay_00000000000161,504349,CARD_FAILURE,0.6739,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000162,487477,CARD_FAILURE,0.8469,retry,retry,True,Action permitted under current policy.,[],SUCCESS,487477,1788630971
+pay_00000000000163,289116,NETWORK_TIMEOUT,0.1331,retry,stop,False,P(recovery)=0.13 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630971
+pay_00000000000164,122961,USER_ABANDONMENT,0.3056,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,122961,1788630971
+pay_00000000000165,199261,CARD_FAILURE,0.2148,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,199261,1788630971
+pay_00000000000166,458467,NETWORK_TIMEOUT,0.5223,retry,retry,True,Action permitted under current policy.,[],SUCCESS,458467,1788630971
+pay_00000000000167,342800,NETWORK_TIMEOUT,0.9558,retry,retry,True,Action permitted under current policy.,[],SUCCESS,342800,1788630971
+pay_00000000000168,3492214,CARD_FAILURE,0.4433,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3492214,1788630971
+pay_00000000000169,373530,NETWORK_TIMEOUT,0.9541,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000170,102603,CARD_FAILURE,0.8446,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000171,106602,NETWORK_TIMEOUT,0.9451,retry,retry,True,Action permitted under current policy.,[],SUCCESS,106602,1788630971
+pay_00000000000172,239261,USER_ABANDONMENT,0.7015,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000173,454771,USER_ABANDONMENT,0.1767,send_reminder,stop,False,P(recovery)=0.18 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630971
+pay_00000000000174,2214650,BANK_DECLINE,0.214,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000175,1441412,NETWORK_TIMEOUT,0.8502,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000176,244952,CARD_FAILURE,0.7292,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000177,107632,CARD_FAILURE,0.9352,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000178,3760323,CARD_FAILURE,0.6625,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3760323,1788630971
+pay_00000000000179,108503,USER_ABANDONMENT,0.295,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,108503,1788630971
+pay_00000000000180,447223,USER_ABANDONMENT,0.6063,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000181,2054610,UPI_FAILURE,0.4307,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,2054610,1788630971
+pay_00000000000182,390633,CARD_FAILURE,0.114,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630971
+pay_00000000000183,105792,CARD_FAILURE,0.8592,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,105792,1788630971
+pay_00000000000184,60193,CARD_FAILURE,0.2283,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,60193,1788630971
+pay_00000000000185,606526,NETWORK_TIMEOUT,0.9146,retry,retry,True,Action permitted under current policy.,[],SUCCESS,606526,1788630971
+pay_00000000000186,122755,UPI_FAILURE,0.8501,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000187,761248,CARD_FAILURE,0.1498,retry,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630971
+pay_00000000000188,2840723,CARD_FAILURE,0.1997,switch_to_upi,stop,False,P(recovery)=0.20 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630971
+pay_00000000000189,108302,NETWORK_TIMEOUT,0.9836,retry,retry,True,Action permitted under current policy.,[],SUCCESS,108302,1788630971
+pay_00000000000190,33983,RETRY_LIMIT,0.0811,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630971
+pay_00000000000191,109959,NETWORK_TIMEOUT,0.9723,retry,retry,True,Action permitted under current policy.,[],SUCCESS,109959,1788630971
+pay_00000000000192,540394,CARD_FAILURE,0.8478,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,540394,1788630971
+pay_00000000000193,137082,RETRY_LIMIT,0.0625,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630971
+pay_00000000000194,35890,UPI_FAILURE,0.5407,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000195,224809,NETWORK_TIMEOUT,0.9629,retry,retry,True,Action permitted under current policy.,[],SUCCESS,224809,1788630971
+pay_00000000000196,41877,NETWORK_TIMEOUT,0.552,retry,retry,True,Action permitted under current policy.,[],SUCCESS,41877,1788630971
+pay_00000000000197,4719102,NETWORK_TIMEOUT,0.9841,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4719102,1788630971
+pay_00000000000198,54053,BANK_DECLINE,0.7328,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000199,116615,USER_ABANDONMENT,0.7312,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630971
+pay_00000000000200,22542,NETWORK_TIMEOUT,0.9328,retry,retry,True,Action permitted under current policy.,[],SUCCESS,22542,1788630971
+pay_00000000000201,4091872,NETWORK_TIMEOUT,0.4616,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000202,62344,NETWORK_TIMEOUT,0.9623,retry,retry,True,Action permitted under current policy.,[],SUCCESS,62344,1788630972
+pay_00000000000203,775173,CARD_FAILURE,0.9336,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000204,37659,RETRY_LIMIT,0.0581,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630972
+pay_00000000000205,344546,UPI_FAILURE,0.6524,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,344546,1788630972
+pay_00000000000206,34031,NETWORK_TIMEOUT,0.2528,retry,retry,True,Action permitted under current policy.,[],SUCCESS,34031,1788630972
+pay_00000000000207,735126,CARD_FAILURE,0.7748,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,735126,1788630972
+pay_00000000000208,585352,UPI_FAILURE,0.1932,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630972
+pay_00000000000209,91516,NETWORK_TIMEOUT,0.534,retry,retry,True,Action permitted under current policy.,[],SUCCESS,91516,1788630972
+pay_00000000000210,748388,NETWORK_TIMEOUT,0.968,retry,retry,True,Action permitted under current policy.,[],SUCCESS,748388,1788630972
+pay_00000000000211,1599971,UPI_FAILURE,0.2336,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,1599971,1788630972
+pay_00000000000212,59948,CARD_FAILURE,0.8253,retry,retry,True,Action permitted under current policy.,[],SUCCESS,59948,1788630972
+pay_00000000000213,286708,RETRY_LIMIT,0.1625,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630972
+pay_00000000000214,469625,CARD_FAILURE,0.7937,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,469625,1788630972
+pay_00000000000215,90517,NETWORK_TIMEOUT,0.9695,retry,retry,True,Action permitted under current policy.,[],SUCCESS,90517,1788630972
+pay_00000000000216,527717,BANK_DECLINE,0.6954,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000217,663731,NETWORK_TIMEOUT,0.8701,retry,retry,True,Action permitted under current policy.,[],SUCCESS,663731,1788630972
+pay_00000000000218,145908,CARD_FAILURE,0.9054,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,145908,1788630972
+pay_00000000000219,2125802,CARD_FAILURE,0.6793,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000220,2737024,UPI_FAILURE,0.3462,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000221,2666920,USER_ABANDONMENT,0.2273,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630972
+pay_00000000000222,34328,BANK_DECLINE,0.1358,send_reminder,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630972
+pay_00000000000223,636097,NETWORK_TIMEOUT,0.9226,retry,retry,True,Action permitted under current policy.,[],SUCCESS,636097,1788630972
+pay_00000000000224,279545,NETWORK_TIMEOUT,0.8301,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630972
+pay_00000000000225,617935,NETWORK_TIMEOUT,0.961,retry,retry,True,Action permitted under current policy.,[],SUCCESS,617935,1788630972
+pay_00000000000226,91741,BANK_DECLINE,0.871,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,91741,1788630972
+pay_00000000000227,527685,NETWORK_TIMEOUT,0.9507,retry,retry,True,Action permitted under current policy.,[],SUCCESS,527685,1788630972
+pay_00000000000228,4857259,UPI_FAILURE,0.3061,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000229,35493,NETWORK_TIMEOUT,0.8827,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000230,63684,UPI_FAILURE,0.8303,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000231,732145,USER_ABANDONMENT,0.1447,send_reminder,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630972
+pay_00000000000232,74246,USER_ABANDONMENT,0.78,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000233,1913312,USER_ABANDONMENT,0.3117,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630972
+pay_00000000000234,612543,USER_ABANDONMENT,0.875,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,612543,1788630972
+pay_00000000000235,23800,NETWORK_TIMEOUT,0.9618,retry,retry,True,Action permitted under current policy.,[],SUCCESS,23800,1788630972
+pay_00000000000236,288197,RETRY_LIMIT,0.0486,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630972
+pay_00000000000237,34796,RETRY_LIMIT,0.0886,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630972
+pay_00000000000238,3658117,USER_ABANDONMENT,0.3726,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000239,145289,UPI_FAILURE,0.8058,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000240,3687900,NETWORK_TIMEOUT,0.9188,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630972
+pay_00000000000241,91449,RETRY_LIMIT,0.1537,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630972
+pay_00000000000242,4371065,UPI_FAILURE,0.3498,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],SUCCESS,4371065,1788630972
+pay_00000000000243,536482,UPI_FAILURE,0.1103,switch_to_card,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630972
+pay_00000000000244,65029,RETRY_LIMIT,0.0996,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000245,116649,RETRY_LIMIT,0.1896,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000246,43699,CARD_FAILURE,0.2631,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000247,4072148,RETRY_LIMIT,0.2202,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000248,403542,NETWORK_TIMEOUT,0.3725,retry,retry,True,Action permitted under current policy.,[],SUCCESS,403542,1788630973
+pay_00000000000249,1821649,NETWORK_TIMEOUT,0.8897,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000250,41229,BANK_DECLINE,0.8118,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,41229,1788630973
+pay_00000000000251,115360,BANK_DECLINE,0.5163,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000252,1816729,UPI_FAILURE,0.6378,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,1816729,1788630973
+pay_00000000000253,261954,RETRY_LIMIT,0.2232,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000254,27347,CARD_FAILURE,0.9089,switch_to_upi,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000255,4626753,UPI_FAILURE,0.1243,switch_to_card,stop,False,P(recovery)=0.12 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630973
+pay_00000000000256,129632,UPI_FAILURE,0.8723,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,129632,1788630973
+pay_00000000000257,105426,CARD_FAILURE,0.8528,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,105426,1788630973
+pay_00000000000258,89494,NETWORK_TIMEOUT,0.7491,retry,retry,True,Action permitted under current policy.,[],SUCCESS,89494,1788630973
+pay_00000000000259,1163373,NETWORK_TIMEOUT,0.8445,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1163373,1788630973
+pay_00000000000260,359668,USER_ABANDONMENT,0.6939,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000261,131627,CARD_FAILURE,0.894,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,131627,1788630973
+pay_00000000000262,770517,UPI_FAILURE,0.7158,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000263,58769,BANK_DECLINE,0.2697,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000264,367208,UPI_FAILURE,0.1527,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000265,82717,USER_ABANDONMENT,0.7308,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000266,2380024,RETRY_LIMIT,0.1665,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000267,28250,NETWORK_TIMEOUT,0.9702,retry,retry,True,Action permitted under current policy.,[],SUCCESS,28250,1788630973
+pay_00000000000268,305544,USER_ABANDONMENT,0.2709,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000269,482339,NETWORK_TIMEOUT,0.2436,retry,retry,True,Action permitted under current policy.,[],SUCCESS,482339,1788630973
+pay_00000000000270,4508650,CARD_FAILURE,0.2833,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000271,30956,NETWORK_TIMEOUT,0.9428,retry,retry,True,Action permitted under current policy.,[],SUCCESS,30956,1788630973
+pay_00000000000272,125601,NETWORK_TIMEOUT,0.9167,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630973
+pay_00000000000273,92596,USER_ABANDONMENT,0.1284,send_reminder,stop,False,P(recovery)=0.13 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630973
+pay_00000000000274,607250,RETRY_LIMIT,0.1109,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630973
+pay_00000000000275,342148,UPI_FAILURE,0.2651,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000276,40257,USER_ABANDONMENT,0.039,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630973
+pay_00000000000277,47504,CARD_FAILURE,0.9038,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,47504,1788630973
+pay_00000000000278,107896,NETWORK_TIMEOUT,0.567,retry,retry,True,Action permitted under current policy.,[],SUCCESS,107896,1788630973
+pay_00000000000279,253479,NETWORK_TIMEOUT,0.9599,retry,retry,True,Action permitted under current policy.,[],SUCCESS,253479,1788630973
+pay_00000000000280,192581,CARD_FAILURE,0.7265,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,192581,1788630973
+pay_00000000000281,239135,NETWORK_TIMEOUT,0.9354,retry,retry,True,Action permitted under current policy.,[],SUCCESS,239135,1788630973
+pay_00000000000282,523395,UPI_FAILURE,0.8446,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000283,230234,RETRY_LIMIT,0.0913,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630974
+pay_00000000000284,4922829,CARD_FAILURE,0.8471,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000285,1036114,UPI_FAILURE,0.8096,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000286,469723,CARD_FAILURE,0.8913,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,469723,1788630974
+pay_00000000000287,77146,NETWORK_TIMEOUT,0.9305,retry,retry,True,Action permitted under current policy.,[],SUCCESS,77146,1788630974
+pay_00000000000288,127969,CARD_FAILURE,0.8095,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,127969,1788630974
+pay_00000000000289,4438344,UPI_FAILURE,0.9006,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000290,780437,CARD_FAILURE,0.7737,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,780437,1788630974
+pay_00000000000291,1264118,NETWORK_TIMEOUT,0.9838,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630974
+pay_00000000000292,399641,CARD_FAILURE,0.3157,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,399641,1788630974
+pay_00000000000293,441224,CARD_FAILURE,0.3851,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000294,397864,CARD_FAILURE,0.8837,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630974
+pay_00000000000295,498884,NETWORK_TIMEOUT,0.9712,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000296,95472,NETWORK_TIMEOUT,0.3911,retry,retry,True,Action permitted under current policy.,[],SUCCESS,95472,1788630974
+pay_00000000000297,562608,UPI_FAILURE,0.4492,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,562608,1788630974
+pay_00000000000298,4450376,RETRY_LIMIT,0.476,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630974
+pay_00000000000299,147943,UPI_FAILURE,0.3181,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000300,50781,UPI_FAILURE,0.2074,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000301,89523,USER_ABANDONMENT,0.6449,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,89523,1788630974
+pay_00000000000302,39480,NETWORK_TIMEOUT,0.7779,retry,retry,True,Action permitted under current policy.,[],SUCCESS,39480,1788630974
+pay_00000000000303,86681,UPI_FAILURE,0.7224,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,86681,1788630974
+pay_00000000000304,128881,USER_ABANDONMENT,0.8465,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000305,131718,CARD_FAILURE,0.8336,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630974
+pay_00000000000306,593061,UPI_FAILURE,0.8501,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,593061,1788630974
+pay_00000000000307,283997,USER_ABANDONMENT,0.8093,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630974
+pay_00000000000308,43882,NETWORK_TIMEOUT,0.9465,retry,retry,True,Action permitted under current policy.,[],SUCCESS,43882,1788630974
+pay_00000000000309,82537,UPI_FAILURE,0.879,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,82537,1788630974
+pay_00000000000310,120888,RETRY_LIMIT,0.4529,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630974
+pay_00000000000311,731230,BANK_DECLINE,0.0475,send_reminder,stop,False,P(recovery)=0.05 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630974
+pay_00000000000312,393377,UPI_FAILURE,0.8528,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,393377,1788630974
+pay_00000000000313,46146,NETWORK_TIMEOUT,0.9419,retry,retry,True,Action permitted under current policy.,[],SUCCESS,46146,1788630974
+pay_00000000000314,522497,NETWORK_TIMEOUT,0.9673,retry,retry,True,Action permitted under current policy.,[],SUCCESS,522497,1788630974
+pay_00000000000315,58289,NETWORK_TIMEOUT,0.8505,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],SUCCESS,58289,1788630974
+pay_00000000000316,705378,USER_ABANDONMENT,0.5495,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,705378,1788630974
+pay_00000000000317,24861,NETWORK_TIMEOUT,0.828,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000318,512021,USER_ABANDONMENT,0.8472,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000319,593281,BANK_DECLINE,0.0764,send_reminder,stop,False,P(recovery)=0.08 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630974
+pay_00000000000320,59216,CARD_FAILURE,0.8839,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000321,563959,UPI_FAILURE,0.4934,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,563959,1788630974
+pay_00000000000322,4227751,NETWORK_TIMEOUT,0.7316,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000323,79293,RETRY_LIMIT,0.2418,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630974
+pay_00000000000324,31603,UPI_FAILURE,0.3236,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630974
+pay_00000000000325,46975,NETWORK_TIMEOUT,0.947,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000326,794324,NETWORK_TIMEOUT,0.9666,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000327,657690,CARD_FAILURE,0.8889,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,657690,1788630975
+pay_00000000000328,594336,BANK_DECLINE,0.7879,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000329,244073,NETWORK_TIMEOUT,0.1648,retry,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630975
+pay_00000000000330,30636,RETRY_LIMIT,0.146,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000331,100405,USER_ABANDONMENT,0.6893,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,100405,1788630975
+pay_00000000000332,36809,USER_ABANDONMENT,0.4841,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000333,437347,NETWORK_TIMEOUT,0.2202,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000334,179226,CARD_FAILURE,0.3177,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,179226,1788630975
+pay_00000000000335,1345496,NETWORK_TIMEOUT,0.9484,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000336,124223,CARD_FAILURE,0.8794,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000337,36735,NETWORK_TIMEOUT,0.9603,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000338,221726,USER_ABANDONMENT,0.2256,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000339,497618,USER_ABANDONMENT,0.9173,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,497618,1788630975
+pay_00000000000340,131088,NETWORK_TIMEOUT,0.9534,retry,retry,True,Action permitted under current policy.,[],SUCCESS,131088,1788630975
+pay_00000000000341,218553,NETWORK_TIMEOUT,0.9098,retry,retry,True,Action permitted under current policy.,[],SUCCESS,218553,1788630975
+pay_00000000000342,369401,RETRY_LIMIT,0.0776,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000343,380189,RETRY_LIMIT,0.108,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000344,535364,CARD_FAILURE,0.8249,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,535364,1788630975
+pay_00000000000345,126897,UPI_FAILURE,0.1204,switch_to_card,stop,False,P(recovery)=0.12 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630975
+pay_00000000000346,72101,USER_ABANDONMENT,0.2073,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000347,521890,USER_ABANDONMENT,0.1231,send_reminder,stop,False,P(recovery)=0.12 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630975
+pay_00000000000348,70650,NETWORK_TIMEOUT,0.491,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],SUCCESS,70650,1788630975
+pay_00000000000349,492645,CARD_FAILURE,0.8768,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,492645,1788630975
+pay_00000000000350,568630,NETWORK_TIMEOUT,0.9657,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000351,1601398,CARD_FAILURE,0.4146,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000352,367445,RETRY_LIMIT,0.123,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000353,1643181,NETWORK_TIMEOUT,0.9738,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1643181,1788630975
+pay_00000000000354,4524430,BANK_DECLINE,0.2392,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000355,718016,CARD_FAILURE,0.8526,retry,retry,True,Action permitted under current policy.,[],SUCCESS,718016,1788630975
+pay_00000000000356,746854,USER_ABANDONMENT,0.0951,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,746854,1788630975
+pay_00000000000357,85369,NETWORK_TIMEOUT,0.9381,retry,retry,True,Action permitted under current policy.,[],SUCCESS,85369,1788630975
+pay_00000000000358,27087,UPI_FAILURE,0.9497,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,27087,1788630975
+pay_00000000000359,75576,USER_ABANDONMENT,0.2094,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000360,729707,USER_ABANDONMENT,0.5326,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000361,4906652,USER_ABANDONMENT,0.6575,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000362,404125,BANK_DECLINE,0.229,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000363,96829,CARD_FAILURE,0.8459,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000364,42072,NETWORK_TIMEOUT,0.9033,retry,retry,True,Action permitted under current policy.,[],SUCCESS,42072,1788630975
+pay_00000000000365,119505,CARD_FAILURE,0.6841,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,119505,1788630975
+pay_00000000000366,99034,RETRY_LIMIT,0.1518,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000367,295608,UPI_FAILURE,0.2446,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000368,786237,CARD_FAILURE,0.7931,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,786237,1788630975
+pay_00000000000369,639478,RETRY_LIMIT,0.1884,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000370,292350,NETWORK_TIMEOUT,0.9523,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630975
+pay_00000000000371,3884801,NETWORK_TIMEOUT,0.8904,retry,wait,False,"Cooldown not met: 7min elapsed, 10min required for NETWORK_TIMEOUT.",['cooldown_not_met'],NO_ACTION,0,1788630975
+pay_00000000000372,4992900,RETRY_LIMIT,0.5289,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630975
+pay_00000000000373,2566750,USER_ABANDONMENT,0.2363,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630975
+pay_00000000000374,140987,NETWORK_TIMEOUT,0.9856,retry,retry,True,Action permitted under current policy.,[],SUCCESS,140987,1788630975
+pay_00000000000375,304775,CARD_FAILURE,0.8819,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,304775,1788630975
+pay_00000000000376,117674,RETRY_LIMIT,0.1254,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630976
+pay_00000000000377,749180,NETWORK_TIMEOUT,0.7803,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000378,132984,BANK_DECLINE,0.8769,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000379,143967,NETWORK_TIMEOUT,0.9498,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000380,550327,CARD_FAILURE,0.8695,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000381,1017347,UPI_FAILURE,0.8797,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000382,3726787,UPI_FAILURE,0.8196,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000383,547201,BANK_DECLINE,0.151,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630976
+pay_00000000000384,31814,USER_ABANDONMENT,0.662,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,31814,1788630976
+pay_00000000000385,44927,NETWORK_TIMEOUT,0.1617,retry,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630976
+pay_00000000000386,715307,USER_ABANDONMENT,0.8044,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000387,521754,NETWORK_TIMEOUT,0.9188,retry,retry,True,Action permitted under current policy.,[],SUCCESS,521754,1788630976
+pay_00000000000388,520920,BANK_DECLINE,0.7184,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,520920,1788630976
+pay_00000000000389,569300,NETWORK_TIMEOUT,0.9452,retry,retry,True,Action permitted under current policy.,[],SUCCESS,569300,1788630976
+pay_00000000000390,87009,USER_ABANDONMENT,0.4833,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000391,149813,CARD_FAILURE,0.9187,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,149813,1788630976
+pay_00000000000392,485377,NETWORK_TIMEOUT,0.9851,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000393,399825,USER_ABANDONMENT,0.3378,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,399825,1788630976
+pay_00000000000394,3713695,CARD_FAILURE,0.3201,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000395,99589,NETWORK_TIMEOUT,0.9409,retry,retry,True,Action permitted under current policy.,[],SUCCESS,99589,1788630976
+pay_00000000000396,135815,USER_ABANDONMENT,0.4782,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,135815,1788630976
+pay_00000000000397,550536,UPI_FAILURE,0.6033,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,550536,1788630976
+pay_00000000000398,94666,USER_ABANDONMENT,0.2232,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,94666,1788630976
+pay_00000000000399,128339,NETWORK_TIMEOUT,0.9594,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000400,91241,BANK_DECLINE,0.7746,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,91241,1788630976
+pay_00000000000401,265485,NETWORK_TIMEOUT,0.966,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000402,3026344,NETWORK_TIMEOUT,0.8794,retry,retry,True,Action permitted under current policy.,[],SUCCESS,3026344,1788630976
+pay_00000000000403,584052,NETWORK_TIMEOUT,0.8593,retry,retry,True,Action permitted under current policy.,[],SUCCESS,584052,1788630976
+pay_00000000000404,82118,BANK_DECLINE,0.3701,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000405,1053216,NETWORK_TIMEOUT,0.9587,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1053216,1788630976
+pay_00000000000406,135495,NETWORK_TIMEOUT,0.9499,retry,retry,True,Action permitted under current policy.,[],SUCCESS,135495,1788630976
+pay_00000000000407,4804857,CARD_FAILURE,0.8094,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,4804857,1788630976
+pay_00000000000408,92311,USER_ABANDONMENT,0.7672,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,92311,1788630976
+pay_00000000000409,4005385,RETRY_LIMIT,0.1697,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630976
+pay_00000000000410,507999,NETWORK_TIMEOUT,0.9865,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000411,95564,NETWORK_TIMEOUT,0.9006,retry,retry,True,Action permitted under current policy.,[],SUCCESS,95564,1788630976
+pay_00000000000412,478881,NETWORK_TIMEOUT,0.8842,retry,retry,True,Action permitted under current policy.,[],SUCCESS,478881,1788630976
+pay_00000000000413,81063,NETWORK_TIMEOUT,0.9616,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000414,98784,CARD_FAILURE,0.8678,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000415,2180205,USER_ABANDONMENT,0.7072,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,2180205,1788630976
+pay_00000000000416,919007,NETWORK_TIMEOUT,0.9673,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630976
+pay_00000000000417,47494,CARD_FAILURE,0.8631,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,47494,1788630976
+pay_00000000000418,607049,USER_ABANDONMENT,0.3916,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,607049,1788630976
+pay_00000000000419,75134,RETRY_LIMIT,0.1001,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630976
+pay_00000000000420,2826305,BANK_DECLINE,0.6059,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000421,4181607,CARD_FAILURE,0.7626,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000422,798124,UPI_FAILURE,0.4075,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000423,23033,NETWORK_TIMEOUT,0.9626,retry,retry,True,Action permitted under current policy.,[],SUCCESS,23033,1788630976
+pay_00000000000424,61102,NETWORK_TIMEOUT,0.935,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000425,4839742,USER_ABANDONMENT,0.2311,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000426,617830,UPI_FAILURE,0.793,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630976
+pay_00000000000427,706267,CARD_FAILURE,0.9174,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,706267,1788630976
+pay_00000000000428,56444,UPI_FAILURE,0.5043,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,56444,1788630977
+pay_00000000000429,122669,RETRY_LIMIT,0.5908,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000430,59117,NETWORK_TIMEOUT,0.9801,retry,retry,True,Action permitted under current policy.,[],SUCCESS,59117,1788630977
+pay_00000000000431,1729487,BANK_DECLINE,0.2552,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000432,82642,CARD_FAILURE,0.9018,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,82642,1788630977
+pay_00000000000433,126692,USER_ABANDONMENT,0.6401,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000434,633345,NETWORK_TIMEOUT,0.9141,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000435,593116,USER_ABANDONMENT,0.3887,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,593116,1788630977
+pay_00000000000436,101293,CARD_FAILURE,0.2571,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,101293,1788630977
+pay_00000000000437,346444,RETRY_LIMIT,0.0611,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000438,303703,NETWORK_TIMEOUT,0.7001,retry,retry,True,Action permitted under current policy.,[],SUCCESS,303703,1788630977
+pay_00000000000439,433049,NETWORK_TIMEOUT,0.1581,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000440,621093,USER_ABANDONMENT,0.3223,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,621093,1788630977
+pay_00000000000441,320505,RETRY_LIMIT,0.1518,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000442,240181,NETWORK_TIMEOUT,0.2555,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000443,359197,NETWORK_TIMEOUT,0.8827,retry,retry,True,Action permitted under current policy.,[],SUCCESS,359197,1788630977
+pay_00000000000444,639215,CARD_FAILURE,0.513,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,639215,1788630977
+pay_00000000000445,125838,BANK_DECLINE,0.3941,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000446,117048,USER_ABANDONMENT,0.7714,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000447,83402,NETWORK_TIMEOUT,0.8943,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000448,3108388,CARD_FAILURE,0.6397,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3108388,1788630977
+pay_00000000000449,876504,NETWORK_TIMEOUT,0.8747,retry,retry,True,Action permitted under current policy.,[],SUCCESS,876504,1788630977
+pay_00000000000450,3958501,RETRY_LIMIT,0.0826,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000451,50347,NETWORK_TIMEOUT,0.9828,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000452,41245,NETWORK_TIMEOUT,0.3244,retry,retry,True,Action permitted under current policy.,[],SUCCESS,41245,1788630977
+pay_00000000000453,523801,NETWORK_TIMEOUT,0.4294,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000454,134225,NETWORK_TIMEOUT,0.3359,retry,retry,True,Action permitted under current policy.,[],SUCCESS,134225,1788630977
+pay_00000000000455,2776500,RETRY_LIMIT,0.0585,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000456,131389,BANK_DECLINE,0.2462,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,131389,1788630977
+pay_00000000000457,77216,USER_ABANDONMENT,0.7336,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,77216,1788630977
+pay_00000000000458,4137144,RETRY_LIMIT,0.3898,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000459,65434,USER_ABANDONMENT,0.1379,send_reminder,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630977
+pay_00000000000460,4022707,USER_ABANDONMENT,0.6391,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000461,502550,UPI_FAILURE,0.763,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,502550,1788630977
+pay_00000000000462,1906228,BANK_DECLINE,0.3353,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000463,611278,RETRY_LIMIT,0.4343,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000464,134195,USER_ABANDONMENT,0.8264,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000465,264466,NETWORK_TIMEOUT,0.979,retry,retry,True,Action permitted under current policy.,[],SUCCESS,264466,1788630977
+pay_00000000000466,458347,NETWORK_TIMEOUT,0.8854,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000467,232255,USER_ABANDONMENT,0.2414,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000468,271023,RETRY_LIMIT,0.4158,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000469,784960,USER_ABANDONMENT,0.672,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000470,76547,NETWORK_TIMEOUT,0.2451,retry,retry,True,Action permitted under current policy.,[],SUCCESS,76547,1788630977
+pay_00000000000471,4229889,RETRY_LIMIT,0.3796,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000472,121319,USER_ABANDONMENT,0.5022,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,121319,1788630977
+pay_00000000000473,327545,USER_ABANDONMENT,0.3977,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000474,4531459,NETWORK_TIMEOUT,0.9189,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000475,86461,RETRY_LIMIT,0.0943,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000476,143622,USER_ABANDONMENT,0.4043,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,143622,1788630977
+pay_00000000000477,548763,CARD_FAILURE,0.3971,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,548763,1788630977
+pay_00000000000478,637310,NETWORK_TIMEOUT,0.8146,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000479,506349,USER_ABANDONMENT,0.3651,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000480,1332381,BANK_DECLINE,0.6551,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,1332381,1788630977
+pay_00000000000481,50147,USER_ABANDONMENT,0.3686,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,50147,1788630977
+pay_00000000000482,128982,CARD_FAILURE,0.748,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000483,68855,RETRY_LIMIT,0.2279,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630977
+pay_00000000000484,646516,BANK_DECLINE,0.8809,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,646516,1788630977
+pay_00000000000485,260146,NETWORK_TIMEOUT,0.9365,retry,retry,True,Action permitted under current policy.,[],SUCCESS,260146,1788630977
+pay_00000000000486,3504370,UPI_FAILURE,0.84,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630977
+pay_00000000000487,113727,CARD_FAILURE,0.9425,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630977
+pay_00000000000488,57249,CARD_FAILURE,0.8697,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,57249,1788630978
+pay_00000000000489,795804,USER_ABANDONMENT,0.6878,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000490,88417,UPI_FAILURE,0.3072,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,88417,1788630978
+pay_00000000000491,796944,CARD_FAILURE,0.3609,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,796944,1788630978
+pay_00000000000492,437492,UPI_FAILURE,0.1878,switch_to_card,stop,False,P(recovery)=0.19 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630978
+pay_00000000000493,479500,NETWORK_TIMEOUT,0.9325,retry,retry,True,Action permitted under current policy.,[],SUCCESS,479500,1788630978
+pay_00000000000494,3036704,NETWORK_TIMEOUT,0.9026,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000495,31326,UPI_FAILURE,0.889,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000496,49617,USER_ABANDONMENT,0.4029,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000497,452712,CARD_FAILURE,0.5697,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,452712,1788630978
+pay_00000000000498,526317,NETWORK_TIMEOUT,0.9397,retry,retry,True,Action permitted under current policy.,[],SUCCESS,526317,1788630978
+pay_00000000000499,108939,BANK_DECLINE,0.663,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000500,120377,RETRY_LIMIT,0.1726,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630978
+pay_00000000000501,645248,RETRY_LIMIT,0.6277,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630978
+pay_00000000000502,529878,NETWORK_TIMEOUT,0.8282,retry,retry,True,Action permitted under current policy.,[],SUCCESS,529878,1788630978
+pay_00000000000503,4140479,NETWORK_TIMEOUT,0.9861,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4140479,1788630978
+pay_00000000000504,622142,RETRY_LIMIT,0.0974,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630978
+pay_00000000000505,98555,CARD_FAILURE,0.5944,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000506,115261,CARD_FAILURE,0.8598,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000507,593054,BANK_DECLINE,0.3576,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000508,43758,BANK_DECLINE,0.1491,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630978
+pay_00000000000509,774144,NETWORK_TIMEOUT,0.8827,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000510,3897002,USER_ABANDONMENT,0.7242,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,3897002,1788630978
+pay_00000000000511,99576,CARD_FAILURE,0.8946,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000512,72948,USER_ABANDONMENT,0.5438,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,72948,1788630978
+pay_00000000000513,234416,BANK_DECLINE,0.6415,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000514,37386,BANK_DECLINE,0.8325,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000515,695015,CARD_FAILURE,0.4257,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,695015,1788630978
+pay_00000000000516,303075,UPI_FAILURE,0.8041,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000517,622253,UPI_FAILURE,0.3728,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,622253,1788630978
+pay_00000000000518,58316,USER_ABANDONMENT,0.8391,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000519,141383,NETWORK_TIMEOUT,0.9227,retry,retry,True,Action permitted under current policy.,[],SUCCESS,141383,1788630978
+pay_00000000000520,2715717,USER_ABANDONMENT,0.2331,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000521,56369,NETWORK_TIMEOUT,0.9053,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000522,746985,UPI_FAILURE,0.5211,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,746985,1788630978
+pay_00000000000523,133673,CARD_FAILURE,0.9349,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000524,352999,USER_ABANDONMENT,0.6873,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,352999,1788630978
+pay_00000000000525,4297287,USER_ABANDONMENT,0.4317,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000526,629083,BANK_DECLINE,0.1493,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630978
+pay_00000000000527,771742,BANK_DECLINE,0.1435,send_reminder,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630978
+pay_00000000000528,2073160,NETWORK_TIMEOUT,0.9334,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2073160,1788630978
+pay_00000000000529,2344678,CARD_FAILURE,0.7272,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630978
+pay_00000000000530,492957,USER_ABANDONMENT,0.4191,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000531,440313,RETRY_LIMIT,0.1101,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630978
+pay_00000000000532,383717,NETWORK_TIMEOUT,0.8183,retry,retry,True,Action permitted under current policy.,[],SUCCESS,383717,1788630978
+pay_00000000000533,394296,CARD_FAILURE,0.8918,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,394296,1788630978
+pay_00000000000534,3806396,CARD_FAILURE,0.509,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000535,1508430,CARD_FAILURE,0.8288,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000536,693791,NETWORK_TIMEOUT,0.9377,retry,retry,True,Action permitted under current policy.,[],SUCCESS,693791,1788630978
+pay_00000000000537,21958,NETWORK_TIMEOUT,0.417,retry,retry,True,Action permitted under current policy.,[],SUCCESS,21958,1788630978
+pay_00000000000538,748988,NETWORK_TIMEOUT,0.9253,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630978
+pay_00000000000539,3550993,CARD_FAILURE,0.8891,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3550993,1788630978
+pay_00000000000540,2602176,RETRY_LIMIT,0.7834,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630978
+pay_00000000000541,67896,NETWORK_TIMEOUT,0.4994,retry,retry,True,Action permitted under current policy.,[],SUCCESS,67896,1788630978
+pay_00000000000542,2466624,CARD_FAILURE,0.8195,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,2466624,1788630978
+pay_00000000000543,2496144,USER_ABANDONMENT,0.888,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,2496144,1788630978
+pay_00000000000544,123063,CARD_FAILURE,0.82,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000545,280929,NETWORK_TIMEOUT,0.9543,retry,retry,True,Action permitted under current policy.,[],SUCCESS,280929,1788630979
+pay_00000000000546,778146,USER_ABANDONMENT,0.1675,send_reminder,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630979
+pay_00000000000547,4952160,USER_ABANDONMENT,0.8508,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000548,783136,CARD_FAILURE,0.8772,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000549,74020,USER_ABANDONMENT,0.5105,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000550,674116,CARD_FAILURE,0.7891,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000551,1735167,USER_ABANDONMENT,0.2978,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000552,140751,USER_ABANDONMENT,0.5764,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,140751,1788630979
+pay_00000000000553,4853990,RETRY_LIMIT,0.1647,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000554,66802,CARD_FAILURE,0.8061,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000555,329664,NETWORK_TIMEOUT,0.9627,retry,retry,True,Action permitted under current policy.,[],SUCCESS,329664,1788630979
+pay_00000000000556,2605263,RETRY_LIMIT,0.0265,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000557,583807,USER_ABANDONMENT,0.817,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000558,76408,NETWORK_TIMEOUT,0.9758,retry,retry,True,Action permitted under current policy.,[],SUCCESS,76408,1788630979
+pay_00000000000559,222759,USER_ABANDONMENT,0.1532,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000560,1704081,CARD_FAILURE,0.7949,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000561,1148885,CARD_FAILURE,0.8731,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000562,102095,CARD_FAILURE,0.7778,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,102095,1788630979
+pay_00000000000563,3431117,BANK_DECLINE,0.6586,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000564,1412062,USER_ABANDONMENT,0.0742,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000565,140871,USER_ABANDONMENT,0.2672,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,140871,1788630979
+pay_00000000000566,123702,NETWORK_TIMEOUT,0.5735,retry,retry,True,Action permitted under current policy.,[],SUCCESS,123702,1788630979
+pay_00000000000567,641737,NETWORK_TIMEOUT,0.9823,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000568,144572,CARD_FAILURE,0.7063,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000569,693211,UPI_FAILURE,0.2016,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,693211,1788630979
+pay_00000000000570,105047,USER_ABANDONMENT,0.2023,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000571,3887662,BANK_DECLINE,0.7199,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000572,67652,CARD_FAILURE,0.5263,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,67652,1788630979
+pay_00000000000573,582136,USER_ABANDONMENT,0.2665,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000574,61483,NETWORK_TIMEOUT,0.9069,retry,retry,True,Action permitted under current policy.,[],SUCCESS,61483,1788630979
+pay_00000000000575,139176,RETRY_LIMIT,0.0849,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000576,4532124,NETWORK_TIMEOUT,0.6804,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000577,101793,NETWORK_TIMEOUT,0.8164,retry,retry,True,Action permitted under current policy.,[],SUCCESS,101793,1788630979
+pay_00000000000578,695712,RETRY_LIMIT,0.1753,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000579,111132,CARD_FAILURE,0.3345,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000580,993000,NETWORK_TIMEOUT,0.9745,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000581,792321,BANK_DECLINE,0.6223,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000582,108625,RETRY_LIMIT,0.6125,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000583,74038,USER_ABANDONMENT,0.162,send_reminder,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630979
+pay_00000000000584,3470916,UPI_FAILURE,0.5509,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,3470916,1788630979
+pay_00000000000585,66254,RETRY_LIMIT,0.1673,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000586,377534,BANK_DECLINE,0.7015,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000587,146017,CARD_FAILURE,0.6387,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],SUCCESS,146017,1788630979
+pay_00000000000588,147196,BANK_DECLINE,0.8604,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630979
+pay_00000000000589,411199,UPI_FAILURE,0.3622,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,411199,1788630979
+pay_00000000000590,52320,CARD_FAILURE,0.7874,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,52320,1788630979
+pay_00000000000591,161444,USER_ABANDONMENT,0.9081,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630979
+pay_00000000000592,36847,NETWORK_TIMEOUT,0.984,retry,retry,True,Action permitted under current policy.,[],SUCCESS,36847,1788630979
+pay_00000000000593,87070,RETRY_LIMIT,0.7168,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630979
+pay_00000000000594,367322,NETWORK_TIMEOUT,0.9711,retry,retry,True,Action permitted under current policy.,[],SUCCESS,367322,1788630979
+pay_00000000000595,666137,CARD_FAILURE,0.8944,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000596,361378,CARD_FAILURE,0.9159,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000597,772076,CARD_FAILURE,0.4159,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,772076,1788630980
+pay_00000000000598,3193626,USER_ABANDONMENT,0.3299,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000599,4302135,BANK_DECLINE,0.4538,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,4302135,1788630980
+pay_00000000000600,433185,UPI_FAILURE,0.8853,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630980
+pay_00000000000601,105220,NETWORK_TIMEOUT,0.9122,retry,retry,True,Action permitted under current policy.,[],SUCCESS,105220,1788630980
+pay_00000000000602,72662,CARD_FAILURE,0.5934,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000603,102928,USER_ABANDONMENT,0.4099,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,102928,1788630980
+pay_00000000000604,2637704,UPI_FAILURE,0.9311,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,2637704,1788630980
+pay_00000000000605,369408,USER_ABANDONMENT,0.7492,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,369408,1788630980
+pay_00000000000606,1151271,RETRY_LIMIT,0.8489,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630980
+pay_00000000000607,32065,NETWORK_TIMEOUT,0.8276,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000608,742497,NETWORK_TIMEOUT,0.8784,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000609,3960153,BANK_DECLINE,0.2568,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000610,607484,NETWORK_TIMEOUT,0.96,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000611,191686,USER_ABANDONMENT,0.2305,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,191686,1788630980
+pay_00000000000612,253858,CARD_FAILURE,0.2553,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000613,4422796,BANK_DECLINE,0.9377,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,4422796,1788630980
+pay_00000000000614,121331,UPI_FAILURE,0.8935,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,121331,1788630980
+pay_00000000000615,134184,RETRY_LIMIT,0.0871,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630980
+pay_00000000000616,792833,USER_ABANDONMENT,0.1542,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630980
+pay_00000000000617,4085232,RETRY_LIMIT,0.1079,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630980
+pay_00000000000618,4327352,USER_ABANDONMENT,0.3548,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,4327352,1788630980
+pay_00000000000619,744088,BANK_DECLINE,0.8129,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,744088,1788630980
+pay_00000000000620,432831,NETWORK_TIMEOUT,0.96,retry,retry,True,Action permitted under current policy.,[],SUCCESS,432831,1788630980
+pay_00000000000621,136407,BANK_DECLINE,0.7497,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000622,479474,CARD_FAILURE,0.6366,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000623,417309,USER_ABANDONMENT,0.5386,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,417309,1788630980
+pay_00000000000624,30388,RETRY_LIMIT,0.2094,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630980
+pay_00000000000625,22252,NETWORK_TIMEOUT,0.8754,retry,retry,True,Action permitted under current policy.,[],SUCCESS,22252,1788630980
+pay_00000000000626,40435,UPI_FAILURE,0.9639,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,40435,1788630980
+pay_00000000000627,3769026,UPI_FAILURE,0.2387,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000628,296638,CARD_FAILURE,0.5421,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000629,604434,UPI_FAILURE,0.893,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,604434,1788630980
+pay_00000000000630,78767,UPI_FAILURE,0.6027,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,78767,1788630980
+pay_00000000000631,3040646,NETWORK_TIMEOUT,0.9777,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000632,81381,NETWORK_TIMEOUT,0.9596,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000633,772697,USER_ABANDONMENT,0.7098,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000634,569273,UPI_FAILURE,0.8409,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000635,48053,USER_ABANDONMENT,0.2594,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630980
+pay_00000000000636,289967,CARD_FAILURE,0.7446,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,289967,1788630980
+pay_00000000000637,100312,NETWORK_TIMEOUT,0.9448,retry,retry,True,Action permitted under current policy.,[],SUCCESS,100312,1788630980
+pay_00000000000638,149053,USER_ABANDONMENT,0.5912,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,149053,1788630980
+pay_00000000000639,3337939,USER_ABANDONMENT,0.4587,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,3337939,1788630980
+pay_00000000000640,146706,UPI_FAILURE,0.2886,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000641,794745,CARD_FAILURE,0.9188,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,794745,1788630980
+pay_00000000000642,97243,CARD_FAILURE,0.7385,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,97243,1788630980
+pay_00000000000643,229802,NETWORK_TIMEOUT,0.8987,retry,retry,True,Action permitted under current policy.,[],SUCCESS,229802,1788630980
+pay_00000000000644,105996,CARD_FAILURE,0.6638,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,105996,1788630980
+pay_00000000000645,1375372,NETWORK_TIMEOUT,0.2842,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1375372,1788630980
+pay_00000000000646,441819,CARD_FAILURE,0.7603,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000647,87163,NETWORK_TIMEOUT,0.9481,retry,retry,True,Action permitted under current policy.,[],SUCCESS,87163,1788630980
+pay_00000000000648,480479,NETWORK_TIMEOUT,0.97,retry,retry,True,Action permitted under current policy.,[],SUCCESS,480479,1788630980
+pay_00000000000649,59348,CARD_FAILURE,0.7935,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630980
+pay_00000000000650,147747,CARD_FAILURE,0.8398,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000651,137352,USER_ABANDONMENT,0.8301,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630980
+pay_00000000000652,167663,USER_ABANDONMENT,0.1349,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630980
+pay_00000000000653,292827,UPI_FAILURE,0.6279,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,292827,1788630980
+pay_00000000000654,412139,NETWORK_TIMEOUT,0.6203,retry,retry,True,Action permitted under current policy.,[],SUCCESS,412139,1788630981
+pay_00000000000655,438426,USER_ABANDONMENT,0.7043,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000656,43207,RETRY_LIMIT,0.0902,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630981
+pay_00000000000657,301720,USER_ABANDONMENT,0.59,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000658,671180,NETWORK_TIMEOUT,0.955,retry,retry,True,Action permitted under current policy.,[],SUCCESS,671180,1788630981
+pay_00000000000659,69797,USER_ABANDONMENT,0.5948,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000660,116734,CARD_FAILURE,0.8119,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,116734,1788630981
+pay_00000000000661,663329,CARD_FAILURE,0.5101,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000662,43513,USER_ABANDONMENT,0.2759,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,43513,1788630981
+pay_00000000000663,42462,NETWORK_TIMEOUT,0.9861,retry,retry,True,Action permitted under current policy.,[],SUCCESS,42462,1788630981
+pay_00000000000664,2608479,RETRY_LIMIT,0.0843,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630981
+pay_00000000000665,4820841,CARD_FAILURE,0.7241,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4820841,1788630981
+pay_00000000000666,336971,CARD_FAILURE,0.8866,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000667,178648,BANK_DECLINE,0.2871,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000668,66312,NETWORK_TIMEOUT,0.9816,retry,retry,True,Action permitted under current policy.,[],SUCCESS,66312,1788630981
+pay_00000000000669,69734,NETWORK_TIMEOUT,0.9495,retry,retry,True,Action permitted under current policy.,[],SUCCESS,69734,1788630981
+pay_00000000000670,487264,BANK_DECLINE,0.769,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,487264,1788630981
+pay_00000000000671,28456,BANK_DECLINE,0.2763,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,28456,1788630981
+pay_00000000000672,703985,CARD_FAILURE,0.8656,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,703985,1788630981
+pay_00000000000673,115057,USER_ABANDONMENT,0.7402,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,115057,1788630981
+pay_00000000000674,145726,RETRY_LIMIT,0.0958,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630981
+pay_00000000000675,214518,BANK_DECLINE,0.3114,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000676,26334,USER_ABANDONMENT,0.7668,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,26334,1788630981
+pay_00000000000677,870312,BANK_DECLINE,0.672,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000678,374082,CARD_FAILURE,0.2537,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000679,354163,NETWORK_TIMEOUT,0.9286,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000680,77064,NETWORK_TIMEOUT,0.924,retry,retry,True,Action permitted under current policy.,[],SUCCESS,77064,1788630981
+pay_00000000000681,2272269,USER_ABANDONMENT,0.777,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000682,3350188,NETWORK_TIMEOUT,0.4766,retry,retry,True,Action permitted under current policy.,[],SUCCESS,3350188,1788630981
+pay_00000000000683,110584,NETWORK_TIMEOUT,0.9294,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000684,729546,NETWORK_TIMEOUT,0.8895,retry,retry,True,Action permitted under current policy.,[],SUCCESS,729546,1788630981
+pay_00000000000685,2670893,USER_ABANDONMENT,0.5188,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000686,389191,CARD_FAILURE,0.1371,switch_to_upi,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630981
+pay_00000000000687,91991,UPI_FAILURE,0.5511,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,91991,1788630981
+pay_00000000000688,503215,USER_ABANDONMENT,0.8528,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000689,558196,BANK_DECLINE,0.6485,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000690,335796,UPI_FAILURE,0.8478,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000691,170407,RETRY_LIMIT,0.0858,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630981
+pay_00000000000692,1652757,NETWORK_TIMEOUT,0.8572,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1652757,1788630981
+pay_00000000000693,1160720,NETWORK_TIMEOUT,0.8959,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1160720,1788630981
+pay_00000000000694,4923632,UPI_FAILURE,0.8995,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000695,2286600,NETWORK_TIMEOUT,0.9335,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2286600,1788630981
+pay_00000000000696,73095,BANK_DECLINE,0.1477,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000697,747092,NETWORK_TIMEOUT,0.3138,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000698,40753,CARD_FAILURE,0.5227,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000699,513624,NETWORK_TIMEOUT,0.7649,retry,retry,True,Action permitted under current policy.,[],SUCCESS,513624,1788630981
+pay_00000000000700,102289,UPI_FAILURE,0.5573,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],SUCCESS,102289,1788630981
+pay_00000000000701,567955,USER_ABANDONMENT,0.6793,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000702,2331391,NETWORK_TIMEOUT,0.9576,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2331391,1788630981
+pay_00000000000703,1664887,CARD_FAILURE,0.8985,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000704,99683,USER_ABANDONMENT,0.6698,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000705,687196,NETWORK_TIMEOUT,0.9268,retry,retry,True,Action permitted under current policy.,[],SUCCESS,687196,1788630981
+pay_00000000000706,101183,RETRY_LIMIT,0.582,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630981
+pay_00000000000707,738760,UPI_FAILURE,0.6474,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,738760,1788630981
+pay_00000000000708,621628,USER_ABANDONMENT,0.1548,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630981
+pay_00000000000709,110856,BANK_DECLINE,0.204,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000710,64555,NETWORK_TIMEOUT,0.4976,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630981
+pay_00000000000711,612488,CARD_FAILURE,0.7728,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630981
+pay_00000000000712,3357430,UPI_FAILURE,0.665,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000713,65886,CARD_FAILURE,0.7105,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000714,205675,RETRY_LIMIT,0.5571,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000715,4382774,CARD_FAILURE,0.2679,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000716,562176,USER_ABANDONMENT,0.1436,send_reminder,stop,False,P(recovery)=0.14 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000717,671877,USER_ABANDONMENT,0.0981,send_reminder,stop,False,P(recovery)=0.10 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000718,638219,CARD_FAILURE,0.2877,retry,retry,True,Action permitted under current policy.,[],SUCCESS,638219,1788630982
+pay_00000000000719,95060,NETWORK_TIMEOUT,0.9508,retry,retry,True,Action permitted under current policy.,[],SUCCESS,95060,1788630982
+pay_00000000000720,209442,BANK_DECLINE,0.5909,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000721,206102,UPI_FAILURE,0.8378,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,206102,1788630982
+pay_00000000000722,58484,CARD_FAILURE,0.9465,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,58484,1788630982
+pay_00000000000723,107152,NETWORK_TIMEOUT,0.9543,retry,retry,True,Action permitted under current policy.,[],SUCCESS,107152,1788630982
+pay_00000000000724,761800,BANK_DECLINE,0.9531,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,761800,1788630982
+pay_00000000000725,83157,NETWORK_TIMEOUT,0.834,retry,retry,True,Action permitted under current policy.,[],SUCCESS,83157,1788630982
+pay_00000000000726,262239,CARD_FAILURE,0.141,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000727,57361,USER_ABANDONMENT,0.4909,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,57361,1788630982
+pay_00000000000728,4355136,NETWORK_TIMEOUT,0.9875,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000729,147135,RETRY_LIMIT,0.7396,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000730,107955,NETWORK_TIMEOUT,0.7012,retry,retry,True,Action permitted under current policy.,[],SUCCESS,107955,1788630982
+pay_00000000000731,272137,RETRY_LIMIT,0.0843,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000732,107518,NETWORK_TIMEOUT,0.875,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000733,456830,CARD_FAILURE,0.8891,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000734,220249,NETWORK_TIMEOUT,0.9009,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000735,2773090,CARD_FAILURE,0.0786,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000736,1959646,NETWORK_TIMEOUT,0.936,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000737,3068414,NETWORK_TIMEOUT,0.1571,retry,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000738,759196,NETWORK_TIMEOUT,0.9489,retry,retry,True,Action permitted under current policy.,[],SUCCESS,759196,1788630982
+pay_00000000000739,567499,USER_ABANDONMENT,0.1159,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000740,119621,USER_ABANDONMENT,0.4594,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,119621,1788630982
+pay_00000000000741,595555,UPI_FAILURE,0.8067,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,595555,1788630982
+pay_00000000000742,140370,NETWORK_TIMEOUT,0.8923,retry,retry,True,Action permitted under current policy.,[],SUCCESS,140370,1788630982
+pay_00000000000743,216248,RETRY_LIMIT,0.6879,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000744,87760,CARD_FAILURE,0.7281,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,87760,1788630982
+pay_00000000000745,3654517,UPI_FAILURE,0.8246,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,3654517,1788630982
+pay_00000000000746,774958,USER_ABANDONMENT,0.4457,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000747,199239,CARD_FAILURE,0.3473,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000748,748957,USER_ABANDONMENT,0.3499,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,748957,1788630982
+pay_00000000000749,102919,USER_ABANDONMENT,0.4745,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000750,28825,NETWORK_TIMEOUT,0.8764,retry,retry,True,Action permitted under current policy.,[],SUCCESS,28825,1788630982
+pay_00000000000751,565320,RETRY_LIMIT,0.0402,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000752,600975,UPI_FAILURE,0.6122,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,600975,1788630982
+pay_00000000000753,118621,BANK_DECLINE,0.2167,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000754,4477468,CARD_FAILURE,0.2386,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000755,408933,USER_ABANDONMENT,0.1487,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000756,222481,RETRY_LIMIT,0.1748,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000757,378005,NETWORK_TIMEOUT,0.6142,retry,retry,True,Action permitted under current policy.,[],SUCCESS,378005,1788630982
+pay_00000000000758,312533,USER_ABANDONMENT,0.3977,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,312533,1788630982
+pay_00000000000759,46703,UPI_FAILURE,0.7098,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,46703,1788630982
+pay_00000000000760,44263,BANK_DECLINE,0.1557,send_reminder,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000761,3227352,CARD_FAILURE,0.4459,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000762,20478,RETRY_LIMIT,0.1031,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000763,385715,BANK_DECLINE,0.7444,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630982
+pay_00000000000764,786415,BANK_DECLINE,0.1338,send_reminder,stop,False,P(recovery)=0.13 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630982
+pay_00000000000765,97948,BANK_DECLINE,0.5558,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000766,61203,RETRY_LIMIT,0.2354,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630982
+pay_00000000000767,320623,UPI_FAILURE,0.8615,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],SUCCESS,320623,1788630982
+pay_00000000000768,133985,BANK_DECLINE,0.7953,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,133985,1788630982
+pay_00000000000769,31660,NETWORK_TIMEOUT,0.8302,retry,retry,True,Action permitted under current policy.,[],SUCCESS,31660,1788630982
+pay_00000000000770,344961,NETWORK_TIMEOUT,0.953,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630982
+pay_00000000000771,113241,USER_ABANDONMENT,0.4589,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,113241,1788630983
+pay_00000000000772,224158,USER_ABANDONMENT,0.7425,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000773,575335,NETWORK_TIMEOUT,0.9196,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630983
+pay_00000000000774,4204870,NETWORK_TIMEOUT,0.9168,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630983
+pay_00000000000775,102436,UPI_FAILURE,0.8338,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,102436,1788630983
+pay_00000000000776,43216,NETWORK_TIMEOUT,0.9866,retry,retry,True,Action permitted under current policy.,[],SUCCESS,43216,1788630983
+pay_00000000000777,103062,BANK_DECLINE,0.5186,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000778,2505097,UPI_FAILURE,0.7425,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000779,541957,NETWORK_TIMEOUT,0.9718,retry,retry,True,Action permitted under current policy.,[],SUCCESS,541957,1788630983
+pay_00000000000780,652249,NETWORK_TIMEOUT,0.8287,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000781,1687245,RETRY_LIMIT,0.1172,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630983
+pay_00000000000782,3787766,USER_ABANDONMENT,0.279,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,3787766,1788630983
+pay_00000000000783,733515,CARD_FAILURE,0.8415,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000784,148883,UPI_FAILURE,0.9111,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000785,154483,UPI_FAILURE,0.4233,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,154483,1788630983
+pay_00000000000786,202789,USER_ABANDONMENT,0.259,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000787,320407,BANK_DECLINE,0.1651,send_reminder,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630983
+pay_00000000000788,75241,BANK_DECLINE,0.1867,send_reminder,stop,False,P(recovery)=0.19 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630983
+pay_00000000000789,109414,UPI_FAILURE,0.6792,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000790,99707,UPI_FAILURE,0.846,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000791,1140404,CARD_FAILURE,0.7789,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000792,120952,UPI_FAILURE,0.7852,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000793,191199,UPI_FAILURE,0.4629,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000794,445418,NETWORK_TIMEOUT,0.9531,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630983
+pay_00000000000795,559368,RETRY_LIMIT,0.1241,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630983
+pay_00000000000796,68488,UPI_FAILURE,0.2377,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000797,3886527,UPI_FAILURE,0.6343,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,3886527,1788630983
+pay_00000000000798,630140,NETWORK_TIMEOUT,0.8778,retry,retry,True,Action permitted under current policy.,[],SUCCESS,630140,1788630983
+pay_00000000000799,147069,CARD_FAILURE,0.9045,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,147069,1788630983
+pay_00000000000800,600861,CARD_FAILURE,0.6778,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,600861,1788630983
+pay_00000000000801,188133,NETWORK_TIMEOUT,0.8777,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000802,125660,NETWORK_TIMEOUT,0.9621,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000803,2768229,NETWORK_TIMEOUT,0.952,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2768229,1788630983
+pay_00000000000804,517010,RETRY_LIMIT,0.29,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630983
+pay_00000000000805,735394,NETWORK_TIMEOUT,0.3068,retry,retry,True,Action permitted under current policy.,[],SUCCESS,735394,1788630983
+pay_00000000000806,261285,USER_ABANDONMENT,0.1461,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630983
+pay_00000000000807,104902,USER_ABANDONMENT,0.7778,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000808,646528,CARD_FAILURE,0.8322,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000809,142335,UPI_FAILURE,0.8963,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000810,29606,CARD_FAILURE,0.9157,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000811,632745,UPI_FAILURE,0.4666,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000812,24047,NETWORK_TIMEOUT,0.9794,retry,retry,True,Action permitted under current policy.,[],SUCCESS,24047,1788630983
+pay_00000000000813,606401,CARD_FAILURE,0.8452,retry,retry,True,Action permitted under current policy.,[],SUCCESS,606401,1788630983
+pay_00000000000814,636961,NETWORK_TIMEOUT,0.9036,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000815,149426,UPI_FAILURE,0.1564,switch_to_card,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630983
+pay_00000000000816,791714,CARD_FAILURE,0.3132,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,791714,1788630983
+pay_00000000000817,63016,NETWORK_TIMEOUT,0.695,retry,retry,True,Action permitted under current policy.,[],SUCCESS,63016,1788630983
+pay_00000000000818,131624,USER_ABANDONMENT,0.2171,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000819,207260,NETWORK_TIMEOUT,0.9301,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000820,2632079,NETWORK_TIMEOUT,0.8973,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2632079,1788630983
+pay_00000000000821,1080896,USER_ABANDONMENT,0.5702,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,1080896,1788630983
+pay_00000000000822,92373,UPI_FAILURE,0.2476,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,92373,1788630983
+pay_00000000000823,199211,NETWORK_TIMEOUT,0.8278,retry,retry,True,Action permitted under current policy.,[],SUCCESS,199211,1788630983
+pay_00000000000824,135056,BANK_DECLINE,0.7674,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630983
+pay_00000000000825,50255,RETRY_LIMIT,0.2069,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630983
+pay_00000000000826,583677,NETWORK_TIMEOUT,0.8699,retry,retry,True,Action permitted under current policy.,[],SUCCESS,583677,1788630983
+pay_00000000000827,2044348,CARD_FAILURE,0.5708,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630983
+pay_00000000000828,751257,NETWORK_TIMEOUT,0.9456,retry,retry,True,Action permitted under current policy.,[],SUCCESS,751257,1788630983
+pay_00000000000829,658277,BANK_DECLINE,0.7794,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000830,93080,NETWORK_TIMEOUT,0.9159,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000831,162314,RETRY_LIMIT,0.6097,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000832,369365,UPI_FAILURE,0.9394,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,369365,1788630984
+pay_00000000000833,315326,UPI_FAILURE,0.6909,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,315326,1788630984
+pay_00000000000834,338623,CARD_FAILURE,0.6408,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000835,217352,NETWORK_TIMEOUT,0.9692,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000836,558381,USER_ABANDONMENT,0.3275,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,558381,1788630984
+pay_00000000000837,1796163,UPI_FAILURE,0.8098,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000838,267353,RETRY_LIMIT,0.0983,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000839,65591,NETWORK_TIMEOUT,0.9283,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000840,1323849,BANK_DECLINE,0.2919,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000841,237348,NETWORK_TIMEOUT,0.3239,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000842,516296,RETRY_LIMIT,0.195,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000843,36703,CARD_FAILURE,0.8684,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000844,111217,NETWORK_TIMEOUT,0.9715,retry,retry,True,Action permitted under current policy.,[],SUCCESS,111217,1788630984
+pay_00000000000845,293134,RETRY_LIMIT,0.0796,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000846,448033,USER_ABANDONMENT,0.249,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,448033,1788630984
+pay_00000000000847,179312,USER_ABANDONMENT,0.5677,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000848,130083,USER_ABANDONMENT,0.1585,send_reminder,stop,False,P(recovery)=0.16 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630984
+pay_00000000000849,3716156,CARD_FAILURE,0.3788,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3716156,1788630984
+pay_00000000000850,458480,RETRY_LIMIT,0.0755,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000851,98833,CARD_FAILURE,0.4525,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000852,123956,RETRY_LIMIT,0.1384,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000853,33320,BANK_DECLINE,0.7286,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000854,43716,NETWORK_TIMEOUT,0.864,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000855,81815,USER_ABANDONMENT,0.4064,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000856,84006,USER_ABANDONMENT,0.7417,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,84006,1788630984
+pay_00000000000857,3450545,NETWORK_TIMEOUT,0.8974,retry,retry,True,Action permitted under current policy.,[],SUCCESS,3450545,1788630984
+pay_00000000000858,31484,CARD_FAILURE,0.9561,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000859,89765,RETRY_LIMIT,0.3625,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000860,794949,UPI_FAILURE,0.8499,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,794949,1788630984
+pay_00000000000861,227572,USER_ABANDONMENT,0.3107,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,227572,1788630984
+pay_00000000000862,1679219,NETWORK_TIMEOUT,0.9706,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1679219,1788630984
+pay_00000000000863,2200259,NETWORK_TIMEOUT,0.9071,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000864,277441,UPI_FAILURE,0.5259,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000865,676687,BANK_DECLINE,0.3185,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000866,570419,USER_ABANDONMENT,0.208,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,570419,1788630984
+pay_00000000000867,513559,NETWORK_TIMEOUT,0.9613,retry,retry,True,Action permitted under current policy.,[],SUCCESS,513559,1788630984
+pay_00000000000868,186660,UPI_FAILURE,0.3056,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,186660,1788630984
+pay_00000000000869,132356,USER_ABANDONMENT,0.4445,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,132356,1788630984
+pay_00000000000870,153768,NETWORK_TIMEOUT,0.9742,retry,retry,True,Action permitted under current policy.,[],SUCCESS,153768,1788630984
+pay_00000000000871,186820,USER_ABANDONMENT,0.4756,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,186820,1788630984
+pay_00000000000872,4315926,BANK_DECLINE,0.8091,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000873,435329,UPI_FAILURE,0.9363,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,435329,1788630984
+pay_00000000000874,308359,USER_ABANDONMENT,0.6561,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000875,550013,BANK_DECLINE,0.5015,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000876,64428,UPI_FAILURE,0.7863,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000877,25407,NETWORK_TIMEOUT,0.9187,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000878,38903,BANK_DECLINE,0.3527,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000879,248957,NETWORK_TIMEOUT,0.9184,retry,retry,True,Action permitted under current policy.,[],SUCCESS,248957,1788630984
+pay_00000000000880,485197,NETWORK_TIMEOUT,0.9608,retry,retry,True,Action permitted under current policy.,[],SUCCESS,485197,1788630984
+pay_00000000000881,609613,UPI_FAILURE,0.8959,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000882,356968,USER_ABANDONMENT,0.7827,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000883,21906,BANK_DECLINE,0.784,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630984
+pay_00000000000884,246831,UPI_FAILURE,0.2795,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630984
+pay_00000000000885,4367317,RETRY_LIMIT,0.7601,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630984
+pay_00000000000886,537323,CARD_FAILURE,0.5814,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,537323,1788630984
+pay_00000000000887,447149,CARD_FAILURE,0.831,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000888,136743,BANK_DECLINE,0.2212,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000889,493266,UPI_FAILURE,0.7443,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000890,360243,UPI_FAILURE,0.6309,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000891,550383,USER_ABANDONMENT,0.7309,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000892,483290,NETWORK_TIMEOUT,0.8179,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000893,432656,RETRY_LIMIT,0.3058,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630985
+pay_00000000000894,60270,NETWORK_TIMEOUT,0.9646,retry,retry,True,Action permitted under current policy.,[],SUCCESS,60270,1788630985
+pay_00000000000895,667008,NETWORK_TIMEOUT,0.8268,retry,retry,True,Action permitted under current policy.,[],SUCCESS,667008,1788630985
+pay_00000000000896,574832,BANK_DECLINE,0.275,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000897,1993511,NETWORK_TIMEOUT,0.2315,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1993511,1788630985
+pay_00000000000898,2819153,NETWORK_TIMEOUT,0.9109,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2819153,1788630985
+pay_00000000000899,879067,NETWORK_TIMEOUT,0.9726,retry,retry,True,Action permitted under current policy.,[],SUCCESS,879067,1788630985
+pay_00000000000900,1030605,NETWORK_TIMEOUT,0.9718,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1030605,1788630985
+pay_00000000000901,135121,BANK_DECLINE,0.885,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000902,645095,CARD_FAILURE,0.5133,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,645095,1788630985
+pay_00000000000903,141601,USER_ABANDONMENT,0.246,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,141601,1788630985
+pay_00000000000904,1425741,BANK_DECLINE,0.8227,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000905,35530,CARD_FAILURE,0.9091,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,35530,1788630985
+pay_00000000000906,97630,NETWORK_TIMEOUT,0.8686,retry,retry,True,Action permitted under current policy.,[],SUCCESS,97630,1788630985
+pay_00000000000907,633071,BANK_DECLINE,0.5861,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000908,339863,BANK_DECLINE,0.7807,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000909,3637507,USER_ABANDONMENT,0.6673,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,3637507,1788630985
+pay_00000000000910,210329,CARD_FAILURE,0.8797,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,210329,1788630985
+pay_00000000000911,109366,RETRY_LIMIT,0.1355,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630985
+pay_00000000000912,115504,BANK_DECLINE,0.3247,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,115504,1788630985
+pay_00000000000913,3223889,USER_ABANDONMENT,0.2871,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,3223889,1788630985
+pay_00000000000914,108946,RETRY_LIMIT,0.6519,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630985
+pay_00000000000915,140169,UPI_FAILURE,0.7728,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000916,782944,UPI_FAILURE,0.7307,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,782944,1788630985
+pay_00000000000917,63401,NETWORK_TIMEOUT,0.9415,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000918,74104,BANK_DECLINE,0.1684,send_reminder,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630985
+pay_00000000000919,49513,CARD_FAILURE,0.817,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000920,731313,USER_ABANDONMENT,0.4374,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000921,777514,CARD_FAILURE,0.2141,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000922,252539,NETWORK_TIMEOUT,0.9099,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000923,4371227,NETWORK_TIMEOUT,0.8638,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4371227,1788630985
+pay_00000000000924,32332,NETWORK_TIMEOUT,0.8061,retry,retry,True,Action permitted under current policy.,[],SUCCESS,32332,1788630985
+pay_00000000000925,91467,CARD_FAILURE,0.8932,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,91467,1788630985
+pay_00000000000926,453915,USER_ABANDONMENT,0.2929,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,453915,1788630985
+pay_00000000000927,530017,USER_ABANDONMENT,0.3425,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,530017,1788630985
+pay_00000000000928,73895,NETWORK_TIMEOUT,0.9263,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000929,72232,CARD_FAILURE,0.8061,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000930,156070,CARD_FAILURE,0.9071,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,156070,1788630985
+pay_00000000000931,635520,USER_ABANDONMENT,0.8235,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000932,137955,USER_ABANDONMENT,0.6928,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000933,646376,CARD_FAILURE,0.9097,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,646376,1788630985
+pay_00000000000934,76151,NETWORK_TIMEOUT,0.9582,retry,retry,True,Action permitted under current policy.,[],SUCCESS,76151,1788630985
+pay_00000000000935,429152,BANK_DECLINE,0.4977,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000936,662469,NETWORK_TIMEOUT,0.9641,retry,retry,True,Action permitted under current policy.,[],SUCCESS,662469,1788630985
+pay_00000000000937,556532,CARD_FAILURE,0.7654,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,556532,1788630985
+pay_00000000000938,25375,BANK_DECLINE,0.774,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000939,1937825,NETWORK_TIMEOUT,0.8756,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1937825,1788630985
+pay_00000000000940,750457,USER_ABANDONMENT,0.2379,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,750457,1788630985
+pay_00000000000941,132256,NETWORK_TIMEOUT,0.9786,retry,retry,True,Action permitted under current policy.,[],SUCCESS,132256,1788630985
+pay_00000000000942,683693,UPI_FAILURE,0.262,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630985
+pay_00000000000943,315397,USER_ABANDONMENT,0.1723,send_reminder,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630985
+pay_00000000000944,714771,USER_ABANDONMENT,0.1061,send_reminder,stop,False,P(recovery)=0.11 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630985
+pay_00000000000945,714948,CARD_FAILURE,0.7777,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630985
+pay_00000000000946,3556224,BANK_DECLINE,0.7321,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000947,307519,UPI_FAILURE,0.1853,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000948,90757,UPI_FAILURE,0.5652,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000949,2923003,CARD_FAILURE,0.297,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,2923003,1788630986
+pay_00000000000950,2885777,BANK_DECLINE,0.2031,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000951,120151,NETWORK_TIMEOUT,0.9049,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000952,283350,CARD_FAILURE,0.9494,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,283350,1788630986
+pay_00000000000953,145992,BANK_DECLINE,0.8347,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,145992,1788630986
+pay_00000000000954,375796,NETWORK_TIMEOUT,0.9491,retry,retry,True,Action permitted under current policy.,[],SUCCESS,375796,1788630986
+pay_00000000000955,348809,NETWORK_TIMEOUT,0.9829,retry,retry,True,Action permitted under current policy.,[],SUCCESS,348809,1788630986
+pay_00000000000956,142655,USER_ABANDONMENT,0.8616,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000957,1266500,NETWORK_TIMEOUT,0.9775,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1266500,1788630986
+pay_00000000000958,185604,CARD_FAILURE,0.659,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,185604,1788630986
+pay_00000000000959,3378269,RETRY_LIMIT,0.6799,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000000960,338050,NETWORK_TIMEOUT,0.971,retry,retry,True,Action permitted under current policy.,[],SUCCESS,338050,1788630986
+pay_00000000000961,99814,RETRY_LIMIT,0.1368,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000000962,244191,USER_ABANDONMENT,0.8257,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,244191,1788630986
+pay_00000000000963,3075397,UPI_FAILURE,0.8322,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,3075397,1788630986
+pay_00000000000964,722450,NETWORK_TIMEOUT,0.8539,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000965,616423,NETWORK_TIMEOUT,0.8981,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],SUCCESS,616423,1788630986
+pay_00000000000966,22708,CARD_FAILURE,0.3533,retry,retry,True,Action permitted under current policy.,[],SUCCESS,22708,1788630986
+pay_00000000000967,109227,CARD_FAILURE,0.8448,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000968,22371,UPI_FAILURE,0.9164,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,22371,1788630986
+pay_00000000000969,405727,CARD_FAILURE,0.5351,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,405727,1788630986
+pay_00000000000970,138862,BANK_DECLINE,0.7726,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000971,117095,NETWORK_TIMEOUT,0.9835,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000972,195086,RETRY_LIMIT,0.0438,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000000973,514758,NETWORK_TIMEOUT,0.9718,retry,retry,True,Action permitted under current policy.,[],SUCCESS,514758,1788630986
+pay_00000000000974,3397087,NETWORK_TIMEOUT,0.9278,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000975,27073,UPI_FAILURE,0.9063,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000976,114723,UPI_FAILURE,0.6118,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,114723,1788630986
+pay_00000000000977,426659,CARD_FAILURE,0.767,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000978,742993,USER_ABANDONMENT,0.3365,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,742993,1788630986
+pay_00000000000979,504573,BANK_DECLINE,0.8569,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000980,3579979,CARD_FAILURE,0.8663,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3579979,1788630986
+pay_00000000000981,121378,NETWORK_TIMEOUT,0.611,retry,retry,True,Action permitted under current policy.,[],SUCCESS,121378,1788630986
+pay_00000000000982,100525,UPI_FAILURE,0.9353,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000983,41889,CARD_FAILURE,0.2408,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000984,446458,USER_ABANDONMENT,0.2619,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000985,117005,BANK_DECLINE,0.1879,send_reminder,stop,False,P(recovery)=0.19 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630986
+pay_00000000000986,228255,CARD_FAILURE,0.8389,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000987,4136079,RETRY_LIMIT,0.323,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000000988,417825,CARD_FAILURE,0.2421,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,417825,1788630986
+pay_00000000000989,2093232,USER_ABANDONMENT,0.1233,send_reminder,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],SUCCESS,2093232,1788630986
+pay_00000000000990,698131,CARD_FAILURE,0.5142,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000991,74358,USER_ABANDONMENT,0.2646,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000992,170845,CARD_FAILURE,0.4346,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000993,432187,UPI_FAILURE,0.7589,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630986
+pay_00000000000994,666049,NETWORK_TIMEOUT,0.9752,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000995,196446,NETWORK_TIMEOUT,0.7312,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630986
+pay_00000000000996,87303,NETWORK_TIMEOUT,0.9024,retry,retry,True,Action permitted under current policy.,[],SUCCESS,87303,1788630986
+pay_00000000000997,3824885,NETWORK_TIMEOUT,0.7503,retry,retry,True,Action permitted under current policy.,[],SUCCESS,3824885,1788630986
+pay_00000000000998,126425,RETRY_LIMIT,0.2303,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000000999,101877,NETWORK_TIMEOUT,0.9422,retry,retry,True,Action permitted under current policy.,[],SUCCESS,101877,1788630986
+pay_00000000001000,102197,RETRY_LIMIT,0.2798,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630986
+pay_00000000001001,2206335,CARD_FAILURE,0.7194,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,2206335,1788630986
+pay_00000000001002,1636917,NETWORK_TIMEOUT,0.8606,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1636917,1788630986
+pay_00000000001003,768114,CARD_FAILURE,0.8818,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001004,3638027,CARD_FAILURE,0.9077,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,3638027,1788630987
+pay_00000000001005,383458,USER_ABANDONMENT,0.2462,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001006,4101285,NETWORK_TIMEOUT,0.8853,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4101285,1788630987
+pay_00000000001007,147969,BANK_DECLINE,0.5099,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001008,259534,NETWORK_TIMEOUT,0.8946,retry,retry,True,Action permitted under current policy.,[],SUCCESS,259534,1788630987
+pay_00000000001009,713655,UPI_FAILURE,0.7983,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001010,789379,CARD_FAILURE,0.8882,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,789379,1788630987
+pay_00000000001011,136570,NETWORK_TIMEOUT,0.9747,retry,retry,True,Action permitted under current policy.,[],SUCCESS,136570,1788630987
+pay_00000000001012,115159,NETWORK_TIMEOUT,0.9337,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001013,730624,CARD_FAILURE,0.2127,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,730624,1788630987
+pay_00000000001014,71832,USER_ABANDONMENT,0.2038,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001015,109824,USER_ABANDONMENT,0.5263,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,109824,1788630987
+pay_00000000001016,709357,UPI_FAILURE,0.2525,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,709357,1788630987
+pay_00000000001017,28326,USER_ABANDONMENT,0.8663,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,28326,1788630987
+pay_00000000001018,246573,USER_ABANDONMENT,0.3087,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,246573,1788630987
+pay_00000000001019,576294,NETWORK_TIMEOUT,0.3069,retry,retry,True,Action permitted under current policy.,[],SUCCESS,576294,1788630987
+pay_00000000001020,169783,NETWORK_TIMEOUT,0.9682,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001021,149920,UPI_FAILURE,0.8323,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001022,87767,USER_ABANDONMENT,0.7117,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,87767,1788630987
+pay_00000000001023,126199,USER_ABANDONMENT,0.4953,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001024,3044045,RETRY_LIMIT,0.3216,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630987
+pay_00000000001025,433949,CARD_FAILURE,0.8133,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001026,258273,RETRY_LIMIT,0.0763,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630987
+pay_00000000001027,90569,UPI_FAILURE,0.4142,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,90569,1788630987
+pay_00000000001028,27724,BANK_DECLINE,0.2734,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001029,121352,NETWORK_TIMEOUT,0.919,retry,retry,True,Action permitted under current policy.,[],SUCCESS,121352,1788630987
+pay_00000000001030,4116952,UPI_FAILURE,0.8496,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,4116952,1788630987
+pay_00000000001031,98653,NETWORK_TIMEOUT,0.9436,retry,retry,True,Action permitted under current policy.,[],SUCCESS,98653,1788630987
+pay_00000000001032,2520658,USER_ABANDONMENT,0.5846,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001033,131204,BANK_DECLINE,0.4495,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,131204,1788630987
+pay_00000000001034,54227,USER_ABANDONMENT,0.8314,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001035,474468,NETWORK_TIMEOUT,0.3114,retry,retry,True,Action permitted under current policy.,[],SUCCESS,474468,1788630987
+pay_00000000001036,4796642,NETWORK_TIMEOUT,0.9922,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4796642,1788630987
+pay_00000000001037,52702,CARD_FAILURE,0.7786,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,52702,1788630987
+pay_00000000001038,228697,NETWORK_TIMEOUT,0.9486,retry,retry,True,Action permitted under current policy.,[],SUCCESS,228697,1788630987
+pay_00000000001039,68397,CARD_FAILURE,0.2386,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001040,22956,USER_ABANDONMENT,0.6514,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,22956,1788630987
+pay_00000000001041,435153,RETRY_LIMIT,0.6573,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630987
+pay_00000000001042,62826,CARD_FAILURE,0.6901,retry,retry,True,Action permitted under current policy.,[],SUCCESS,62826,1788630987
+pay_00000000001043,2429402,CARD_FAILURE,0.5836,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,2429402,1788630987
+pay_00000000001044,226323,USER_ABANDONMENT,0.542,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001045,135839,NETWORK_TIMEOUT,0.9787,retry,retry,True,Action permitted under current policy.,[],SUCCESS,135839,1788630987
+pay_00000000001046,401187,UPI_FAILURE,0.8017,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],SUCCESS,401187,1788630987
+pay_00000000001047,462514,NETWORK_TIMEOUT,0.3362,retry,retry,True,Action permitted under current policy.,[],SUCCESS,462514,1788630987
+pay_00000000001048,222469,UPI_FAILURE,0.7157,switch_to_card,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_card.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001049,134876,NETWORK_TIMEOUT,0.9353,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630987
+pay_00000000001050,763374,CARD_FAILURE,0.7217,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,763374,1788630987
+pay_00000000001051,296066,USER_ABANDONMENT,0.3161,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001052,335423,CARD_FAILURE,0.8245,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001053,2351444,NETWORK_TIMEOUT,0.9614,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2351444,1788630987
+pay_00000000001054,64631,RETRY_LIMIT,0.0762,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630987
+pay_00000000001055,710437,USER_ABANDONMENT,0.4002,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001056,65167,CARD_FAILURE,0.7118,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001057,651034,USER_ABANDONMENT,0.8921,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001058,39952,USER_ABANDONMENT,0.1758,send_reminder,stop,False,P(recovery)=0.18 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630987
+pay_00000000001059,676599,CARD_FAILURE,0.841,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630987
+pay_00000000001060,56017,CARD_FAILURE,0.903,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001061,533182,CARD_FAILURE,0.8866,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001062,709763,NETWORK_TIMEOUT,0.4714,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001063,77289,NETWORK_TIMEOUT,0.9187,retry,retry,True,Action permitted under current policy.,[],SUCCESS,77289,1788630988
+pay_00000000001064,88124,RETRY_LIMIT,0.1344,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630988
+pay_00000000001065,432828,NETWORK_TIMEOUT,0.9373,retry,retry,True,Action permitted under current policy.,[],SUCCESS,432828,1788630988
+pay_00000000001066,3250966,NETWORK_TIMEOUT,0.8494,retry,retry,True,Action permitted under current policy.,[],SUCCESS,3250966,1788630988
+pay_00000000001067,778510,BANK_DECLINE,0.3748,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001068,212929,USER_ABANDONMENT,0.292,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,212929,1788630988
+pay_00000000001069,475367,CARD_FAILURE,0.8324,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,475367,1788630988
+pay_00000000001070,80632,UPI_FAILURE,0.2251,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001071,116448,USER_ABANDONMENT,0.5681,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001072,67807,UPI_FAILURE,0.6978,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001073,368122,USER_ABANDONMENT,0.2623,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,368122,1788630988
+pay_00000000001074,4377482,NETWORK_TIMEOUT,0.939,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4377482,1788630988
+pay_00000000001075,119608,NETWORK_TIMEOUT,0.8733,retry,retry,True,Action permitted under current policy.,[],SUCCESS,119608,1788630988
+pay_00000000001076,642464,UPI_FAILURE,0.6275,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001077,57692,BANK_DECLINE,0.8305,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001078,22785,RETRY_LIMIT,0.1211,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630988
+pay_00000000001079,776915,NETWORK_TIMEOUT,0.8989,retry,retry,True,Action permitted under current policy.,[],SUCCESS,776915,1788630988
+pay_00000000001080,40416,NETWORK_TIMEOUT,0.8396,retry,retry,True,Action permitted under current policy.,[],SUCCESS,40416,1788630988
+pay_00000000001081,974408,NETWORK_TIMEOUT,0.9661,retry,retry,True,Action permitted under current policy.,[],SUCCESS,974408,1788630988
+pay_00000000001082,50732,USER_ABANDONMENT,0.1686,send_reminder,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630988
+pay_00000000001083,2734756,CARD_FAILURE,0.6811,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,2734756,1788630988
+pay_00000000001084,236347,NETWORK_TIMEOUT,0.8162,retry,retry,True,Action permitted under current policy.,[],SUCCESS,236347,1788630988
+pay_00000000001085,2579147,USER_ABANDONMENT,0.66,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001086,1671121,CARD_FAILURE,0.8283,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,1671121,1788630988
+pay_00000000001087,4657838,CARD_FAILURE,0.8865,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,4657838,1788630988
+pay_00000000001088,150708,USER_ABANDONMENT,0.3042,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001089,482490,NETWORK_TIMEOUT,0.8474,retry,retry,True,Action permitted under current policy.,[],SUCCESS,482490,1788630988
+pay_00000000001090,424611,UPI_FAILURE,0.832,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001091,187883,USER_ABANDONMENT,0.5609,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001092,170775,USER_ABANDONMENT,0.3723,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,170775,1788630988
+pay_00000000001093,670133,BANK_DECLINE,0.2945,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001094,3288678,NETWORK_TIMEOUT,0.1677,retry,stop,False,P(recovery)=0.17 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630988
+pay_00000000001095,2134359,CARD_FAILURE,0.0715,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001096,635995,BANK_DECLINE,0.7811,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001097,739538,NETWORK_TIMEOUT,0.6409,retry,retry,True,Action permitted under current policy.,[],SUCCESS,739538,1788630988
+pay_00000000001098,2750689,USER_ABANDONMENT,0.4806,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001099,44009,BANK_DECLINE,0.3536,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,44009,1788630988
+pay_00000000001100,128632,USER_ABANDONMENT,0.2181,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001101,4368530,USER_ABANDONMENT,0.8198,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,4368530,1788630988
+pay_00000000001102,1072513,CARD_FAILURE,0.6492,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001103,244845,NETWORK_TIMEOUT,0.9665,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001104,99905,CARD_FAILURE,0.921,retry,retry,True,Action permitted under current policy.,[],SUCCESS,99905,1788630988
+pay_00000000001105,166567,NETWORK_TIMEOUT,0.7646,retry,retry,True,Action permitted under current policy.,[],SUCCESS,166567,1788630988
+pay_00000000001106,1621666,UPI_FAILURE,0.9269,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001107,1479268,CARD_FAILURE,0.9015,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,1479268,1788630988
+pay_00000000001108,565866,USER_ABANDONMENT,0.5277,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,565866,1788630988
+pay_00000000001109,4544735,NETWORK_TIMEOUT,0.933,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630988
+pay_00000000001110,115840,NETWORK_TIMEOUT,0.7623,retry,retry,True,Action permitted under current policy.,[],SUCCESS,115840,1788630988
+pay_00000000001111,23032,NETWORK_TIMEOUT,0.7981,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001112,539351,NETWORK_TIMEOUT,0.8439,retry,retry,True,Action permitted under current policy.,[],SUCCESS,539351,1788630988
+pay_00000000001113,4998296,CARD_FAILURE,0.9405,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,4998296,1788630988
+pay_00000000001114,1972642,USER_ABANDONMENT,0.2417,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,1972642,1788630988
+pay_00000000001115,344583,NETWORK_TIMEOUT,0.9035,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630988
+pay_00000000001116,153135,USER_ABANDONMENT,0.1292,send_reminder,stop,False,P(recovery)=0.13 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630988
+pay_00000000001117,142557,CARD_FAILURE,0.8967,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,142557,1788630988
+pay_00000000001118,569932,RETRY_LIMIT,0.0396,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001119,1596253,NETWORK_TIMEOUT,0.2914,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1596253,1788630989
+pay_00000000001120,98208,USER_ABANDONMENT,0.4851,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001121,330083,CARD_FAILURE,0.5707,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,330083,1788630989
+pay_00000000001122,385832,CARD_FAILURE,0.4395,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001123,116869,CARD_FAILURE,0.2686,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],SUCCESS,116869,1788630989
+pay_00000000001124,404134,RETRY_LIMIT,0.2165,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001125,262838,RETRY_LIMIT,0.1817,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001126,161749,USER_ABANDONMENT,0.7654,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001127,136858,USER_ABANDONMENT,0.7765,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001128,218289,CARD_FAILURE,0.3447,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,218289,1788630989
+pay_00000000001129,337782,NETWORK_TIMEOUT,0.9514,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001130,2208287,UPI_FAILURE,0.7262,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],SUCCESS,2208287,1788630989
+pay_00000000001131,75658,USER_ABANDONMENT,0.7407,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001132,52648,CARD_FAILURE,0.4981,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001133,75957,USER_ABANDONMENT,0.8318,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001134,4171928,CARD_FAILURE,0.8715,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,4171928,1788630989
+pay_00000000001135,146271,RETRY_LIMIT,0.1404,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001136,111002,UPI_FAILURE,0.7644,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001137,4445970,NETWORK_TIMEOUT,0.7166,retry,retry,True,Action permitted under current policy.,[],SUCCESS,4445970,1788630989
+pay_00000000001138,123492,USER_ABANDONMENT,0.6011,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001139,151608,NETWORK_TIMEOUT,0.9666,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001140,406487,NETWORK_TIMEOUT,0.3824,retry,retry,True,Action permitted under current policy.,[],SUCCESS,406487,1788630989
+pay_00000000001141,598798,CARD_FAILURE,0.9479,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001142,66418,RETRY_LIMIT,0.2051,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001143,118878,USER_ABANDONMENT,0.6499,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001144,3865675,USER_ABANDONMENT,0.2152,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001145,591885,NETWORK_TIMEOUT,0.8502,retry,escalate,False,Attempt 4 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001146,660510,USER_ABANDONMENT,0.1479,send_reminder,stop,False,P(recovery)=0.15 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630989
+pay_00000000001147,41505,BANK_DECLINE,0.3242,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001148,97434,RETRY_LIMIT,0.6714,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001149,576023,USER_ABANDONMENT,0.7515,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001150,510424,UPI_FAILURE,0.2489,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001151,131911,USER_ABANDONMENT,0.6339,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001152,2254491,NETWORK_TIMEOUT,0.2917,retry,retry,True,Action permitted under current policy.,[],SUCCESS,2254491,1788630989
+pay_00000000001153,78953,NETWORK_TIMEOUT,0.8322,retry,retry,True,Action permitted under current policy.,[],SUCCESS,78953,1788630989
+pay_00000000001154,1624436,NETWORK_TIMEOUT,0.7192,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1624436,1788630989
+pay_00000000001155,702008,NETWORK_TIMEOUT,0.8324,retry,retry,True,Action permitted under current policy.,[],SUCCESS,702008,1788630989
+pay_00000000001156,303103,NETWORK_TIMEOUT,0.9882,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001157,145850,NETWORK_TIMEOUT,0.93,retry,retry,True,Action permitted under current policy.,[],SUCCESS,145850,1788630989
+pay_00000000001158,141863,BANK_DECLINE,0.9052,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001159,1095926,NETWORK_TIMEOUT,0.9567,retry,retry,True,Action permitted under current policy.,[],SUCCESS,1095926,1788630989
+pay_00000000001160,104823,UPI_FAILURE,0.8511,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001161,488325,NETWORK_TIMEOUT,0.934,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630989
+pay_00000000001162,115702,BANK_DECLINE,0.7483,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001163,813509,NETWORK_TIMEOUT,0.753,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001164,125081,RETRY_LIMIT,0.1424,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001165,713556,USER_ABANDONMENT,0.3862,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,713556,1788630989
+pay_00000000001166,525589,USER_ABANDONMENT,0.753,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,525589,1788630989
+pay_00000000001167,119431,NETWORK_TIMEOUT,0.9646,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001168,185217,BANK_DECLINE,0.592,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001169,100616,USER_ABANDONMENT,0.6298,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001170,2088187,NETWORK_TIMEOUT,0.9537,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001171,43906,USER_ABANDONMENT,0.5405,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001172,86174,RETRY_LIMIT,0.1914,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001173,616554,CARD_FAILURE,0.1132,switch_to_upi,stop,False,P(recovery)=0.11 below floor (0.2); stopping.,['below_probability_floor'],NO_ACTION,0,1788630989
+pay_00000000001174,96318,RETRY_LIMIT,0.1665,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630989
+pay_00000000001175,137234,NETWORK_TIMEOUT,0.9604,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630989
+pay_00000000001176,68066,NETWORK_TIMEOUT,0.7459,retry,retry,True,Action permitted under current policy.,[],SUCCESS,68066,1788630990
+pay_00000000001177,117211,BANK_DECLINE,0.7293,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001178,64570,RETRY_LIMIT,0.0322,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630990
+pay_00000000001179,3062494,UPI_FAILURE,0.8723,switch_to_card,switch_to_card,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001180,412130,USER_ABANDONMENT,0.4229,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630990
+pay_00000000001181,103263,CARD_FAILURE,0.5581,switch_to_upi,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of switch_to_upi.,['attempt_ceiling_exceeded'],FAILURE,0,1788630990
+pay_00000000001182,102429,NETWORK_TIMEOUT,0.9792,retry,retry,True,Action permitted under current policy.,[],SUCCESS,102429,1788630990
+pay_00000000001183,355650,NETWORK_TIMEOUT,0.448,retry,retry,True,Action permitted under current policy.,[],SUCCESS,355650,1788630990
+pay_00000000001184,545881,USER_ABANDONMENT,0.2087,send_reminder,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of send_reminder.,['attempt_ceiling_exceeded'],FAILURE,0,1788630990
+pay_00000000001185,97740,CARD_FAILURE,0.6336,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,97740,1788630990
+pay_00000000001186,83135,RETRY_LIMIT,0.3718,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630990
+pay_00000000001187,563927,USER_ABANDONMENT,0.2047,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,563927,1788630990
+pay_00000000001188,788819,CARD_FAILURE,0.2793,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],SUCCESS,788819,1788630990
+pay_00000000001189,634831,NETWORK_TIMEOUT,0.8901,retry,retry,True,Action permitted under current policy.,[],SUCCESS,634831,1788630990
+pay_00000000001190,535935,NETWORK_TIMEOUT,0.8908,retry,retry,True,Action permitted under current policy.,[],SUCCESS,535935,1788630990
+pay_00000000001191,139391,USER_ABANDONMENT,0.369,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001192,209751,NETWORK_TIMEOUT,0.9503,retry,retry,True,Action permitted under current policy.,[],SUCCESS,209751,1788630990
+pay_00000000001193,629728,CARD_FAILURE,0.8249,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001194,623105,RETRY_LIMIT,0.0885,stop,stop,True,Action permitted under current policy.,[],NO_ACTION,0,1788630990
+pay_00000000001195,57946,BANK_DECLINE,0.407,send_reminder,send_reminder,True,Action permitted under current policy.,[],SUCCESS,57946,1788630990
+pay_00000000001196,628063,NETWORK_TIMEOUT,0.6918,retry,retry,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001197,97349,CARD_FAILURE,0.4351,switch_to_upi,switch_to_upi,True,Action permitted under current policy.,[],FAILURE,0,1788630990
+pay_00000000001198,1385181,NETWORK_TIMEOUT,0.9791,retry,escalate,False,Attempt 3 >= escalation threshold (3); escalating instead of retry.,['attempt_ceiling_exceeded'],FAILURE,0,1788630990
+pay_00000000001199,38756,USER_ABANDONMENT,0.6711,send_reminder,send_reminder,True,Action permitted under current policy.,[],FAILURE,0,1788630990

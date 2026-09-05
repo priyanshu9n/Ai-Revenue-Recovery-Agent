@@ -1,0 +1,67 @@
+{
+  "roc_auc": 0.6538605697151425,
+  "pr_auc": 0.7193492888703951,
+  "precision": 0.6780487804878049,
+  "recall": 0.7554347826086957,
+  "confusion_matrix": {
+    "tn": 50,
+    "fp": 66,
+    "fn": 45,
+    "tp": 139
+  },
+  "calibration_buckets": [
+    {
+      "range": "0-20%",
+      "n": 18,
+      "actual_recovery_rate": 0.2777777777777778
+    },
+    {
+      "range": "20-40%",
+      "n": 50,
+      "actual_recovery_rate": 0.52
+    },
+    {
+      "range": "40-60%",
+      "n": 68,
+      "actual_recovery_rate": 0.5294117647058824
+    },
+    {
+      "range": "60-80%",
+      "n": 65,
+      "actual_recovery_rate": 0.6
+    },
+    {
+      "range": "80-100%",
+      "n": 99,
+      "actual_recovery_rate": 0.7878787878787878
+    }
+  ],
+  "n_train": 900,
+  "n_test": 300,
+  "feature_columns": [
+    "amount",
+    "attempt_number",
+    "previous_success_rate",
+    "previous_failure_rate",
+    "upi_success_rate",
+    "card_success_rate",
+    "time_since_last_attempt_min",
+    "hour",
+    "day_of_week",
+    "checkout_duration_sec",
+    "method__card",
+    "method__emi",
+    "method__netbanking",
+    "method__upi",
+    "method__wallet",
+    "root_cause__BANK_DECLINE",
+    "root_cause__CARD_FAILURE",
+    "root_cause__NETWORK_TIMEOUT",
+    "root_cause__RETRY_LIMIT",
+    "root_cause__UPI_FAILURE",
+    "root_cause__USER_ABANDONMENT",
+    "customer_value_tier__high",
+    "customer_value_tier__low",
+    "customer_value_tier__mid"
+  ]
+}
